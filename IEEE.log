@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.8)  9 JAN 2026 00:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.8)  9 JAN 2026 00:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**e:/Documents/Code/ResearchPaper/ACM.tex
-(e:/Documents/Code/ResearchPaper/ACM.tex
+**e:/Documents/Code/ResearchPaper/IEEE.tex
+(e:/Documents/Code/ResearchPaper/IEEE.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/acmart\acmart.cls
@@ -35,7 +35,8 @@ Package acmart Info: Explicitly selecting natbib mode on input line 138.
 Package acmart Info: Not using anonymous mode on input line 146.
 Package acmart Info: Not using timestamp mode on input line 154.
 Package acmart Info: Not using authordraft mode on input line 164.
-Class acmart Info: Using format sigconf, number 4 on input line 179.
+Package acmart Info: Using screen mode on input line 179.
+Class acmart Info: Using format manuscript, number 0 on input line 179.
 Class acmart Info: Using fontsize 9pt on input line 281.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsart.cls
 Document Class: amsart 2020/05/29 v2.20.6
@@ -205,7 +206,9 @@ Package: everyshi 2020/11/18 v4.00 EveryShipout Package
 Package: environ 2014/05/04 v0.3 A new way to define environments
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-))
+)) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
 \@ACM@acmcp@delta=\dimen174
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
@@ -547,7 +550,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@ACM@badge@skip=\skip66
 Class acmart Info: Printing CCS on input line 1848.
 Class acmart Info: Printing bibformat on input line 1848.
-Class acmart Info: Suppressing folios on input line 1855.
+Class acmart Info: Printing folios on input line 1850.
 Class acmart Info: Setting authorsperrow to 0 on input line 1858.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
 \CommentStream=\write3
@@ -584,10 +587,8 @@ File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Lin
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 3652.
 )
-
-Class acmart Warning: The macro \acmPriceis obsolete. ACM no longer prints the price in bibstrip. on input line 10.
-
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Class acmart Info: Suppressing bibformat on input line 4.
+ (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
 LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 45.
@@ -838,125 +839,123 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     but found:
         2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 33.
+Package hyperref Info: Option `colorlinks' set `true' on input line 32.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 32.
 \c@theorem=\count346
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/preprint\balance.sty
-Package: balance 1999/02/23 4.3 (PWD)
-\oldvsize=\dimen261
-) Excluding comment 'screenonly' Include comment 'printonly' Include comment 'anonsuppress' (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+Include comment 'screenonly' Excluding comment 'printonly' Include comment 'anonsuppress' (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count347
 )
-No file ACM.aux.
-\openout1 = `ACM.aux'.
+No file IEEE.aux.
+\openout1 = `IEEE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 33.
-LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line 33.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 32.
+LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line 32.
 (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 33.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 33.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 32.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 32.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 33.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 33.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 32.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 32.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 33.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 33.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 32.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 32.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 33.
-LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF on input line 33.
+(Font)              scaled to size 7.0pt on input line 32.
+LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF on input line 32.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ot1linuxlibertinet-tlf.fd
 File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 33.
+(Font)              scaled to size 7.3pt on input line 32.
 <<ot1.cmap>>
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 33.
+(Font)              scaled to size 5.5pt on input line 32.
 LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 7.3pt on input line 33.
+(Font)              scaled to size 7.3pt on input line 32.
 <<oml.cmap>>
 LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 5.5pt on input line 33.
+(Font)              scaled to size 5.5pt on input line 32.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 7.3pt on input line 33.
+(Font)              scaled to size 7.3pt on input line 32.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 5.5pt on input line 33.
+(Font)              scaled to size 5.5pt on input line 32.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 7.3pt on input line 33.
+(Font)              scaled to size 7.3pt on input line 32.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 5.5pt on input line 33.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+(Font)              scaled to size 5.5pt on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 33.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 32.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 7.3pt on input line 33.
+(Font)              scaled to size 7.3pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 5.5pt on input line 33.
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 33.
+(Font)              scaled to size 5.5pt on input line 32.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 32.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 7.3pt on input line 33.
+(Font)              scaled to size 7.3pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 5.5pt on input line 33.
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 33.
+(Font)              scaled to size 5.5pt on input line 32.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 32.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 7.3pt on input line 33.
+(Font)              scaled to size 7.3pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 5.5pt on input line 33.
+(Font)              scaled to size 5.5pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 7.3pt on input line 33.
+(Font)              scaled to size 7.3pt on input line 32.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 5.5pt on input line 33.
-LaTeX Info: Command `\dddot' is already robust on input line 33.
-LaTeX Info: Command `\ddddot' is already robust on input line 33.
-LaTeX Info: Redefining \microtypecontext on input line 33.
-Package microtype Info: Applying patch `item' on input line 33.
-Package microtype Info: Applying patch `toc' on input line 33.
-Package microtype Info: Applying patch `eqnum' on input line 33.
-Package microtype Info: Applying patch `footnote' on input line 33.
-Package microtype Info: Applying patch `verbatim' on input line 33.
-LaTeX Info: Redefining \microtypesetup on input line 33.
+(Font)              scaled to size 5.5pt on input line 32.
+LaTeX Info: Command `\dddot' is already robust on input line 32.
+LaTeX Info: Command `\ddddot' is already robust on input line 32.
+LaTeX Info: Redefining \microtypecontext on input line 32.
+Package microtype Info: Applying patch `item' on input line 32.
+Package microtype Info: Applying patch `toc' on input line 32.
+Package microtype Info: Applying patch `eqnum' on input line 32.
+Package microtype Info: Applying patch `footnote' on input line 32.
+Package microtype Info: Applying patch `verbatim' on input line 32.
+LaTeX Info: Redefining \microtypesetup on input line 32.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -971,20 +970,20 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring ON on input line 32.
 \@outlinefile=\write4
-\openout4 = `ACM.out'.
+\openout4 = `IEEE.out'.
 
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count348
-\scratchdimen=\dimen262
+\scratchdimen=\dimen261
 \scratchbox=\box65
 \nofMPsegments=\count349
 \nofMParguments=\count350
 \everyMPshowfont=\toks42
 \MPscratchCnt=\count351
-\MPscratchDim=\dimen263
+\MPscratchDim=\dimen262
 \MPnumerator=\count352
 \makeMPintoPDFobject=\count353
 \everyMPtoPDFconversion=\toks43
@@ -998,26 +997,26 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: custom
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: includehead includefoot twoside heightrounded 
-* h-part:(L,W,R)=(54.0pt, 506.295pt, 54.0pt)
-* v-part:(T,H,B)=(57.0pt, 664.96999pt, 73.0pt)
+* modes: twoside heightrounded 
+* h-part:(L,W,R)=(73.71613pt, 430.00462pt, 110.57425pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=506.295pt
-* \textheight=626.0pt
-* \oddsidemargin=-18.26999pt
-* \evensidemargin=-18.26999pt
-* \topmargin=-15.26999pt
+* \textwidth=430.00462pt
+* \textheight=560.0pt
+* \oddsidemargin=1.44614pt
+* \evensidemargin=38.30426pt
+* \topmargin=-3.87262pt
 * \headheight=13.0pt
 * \headsep=14.0pt
 * \topskip=10.0pt
 * \footskip=12.0pt
-* \marginparwidth=24.0pt
+* \marginparwidth=72.0pt
 * \marginparsep=11.0pt
-* \columnsep=24.0pt
+* \columnsep=10.0pt
 * \skip\footins=7.0pt plus 11.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
@@ -1040,402 +1039,981 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count356
  Excluding 'CCSXML' comment.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 110.
-LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF on input line 110.
+(Font)              scaled to size 12.0pt on input line 103.
+LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF on input line 103.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxbiolinumt-tlf.fd
 File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 110.
+(Font)              scaled to size 12.0pt on input line 103.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 110.
+(Font)              scaled to size 12.0pt on input line 103.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 110.
+(Font)              scaled to size 10.95pt on input line 103.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 103.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 103.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 110.
+(Font)              scaled to size 8.0pt on input line 103.
+LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 103.
+ (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ts1linuxlibertinet-tlf.fd
+File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 103.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 103.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 110.
+(Font)              scaled to size 8.0pt on input line 103.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 103.
 LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 10.0pt on input line 110.
+(Font)              scaled to size 8.0pt on input line 103.
+LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
+(Font)              scaled to size 6.0pt on input line 103.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 10.0pt on input line 110.
+(Font)              scaled to size 8.0pt on input line 103.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.0pt on input line 103.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 10.0pt on input line 110.
+(Font)              scaled to size 8.0pt on input line 103.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.0pt on input line 103.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 10.0pt on input line 110.
+(Font)              scaled to size 8.0pt on input line 103.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.0pt on input line 103.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 10.0pt on input line 110.
+(Font)              scaled to size 8.0pt on input line 103.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.0pt on input line 103.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 110.
+(Font)              scaled to size 8.0pt on input line 103.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.0pt on input line 103.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 10.0pt on input line 110.
+(Font)              scaled to size 8.0pt on input line 103.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.0pt on input line 103.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 110.
-LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 110.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ts1linuxlibertinet-tlf.fd
-File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxLibertineT-TLF.
-)
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 110.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
+(Font)              scaled to size 8.0pt on input line 103.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 105.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 110.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 110.
+(Font)              scaled to size 9.0pt on input line 107.
 
 
-Package natbib Warning: Citation `sherwani_eshro_2025' on page 1 undefined on input line 110.
-
-LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 110.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 110.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 110.
-LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 9.0pt on input line 110.
-LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 110.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 9.0pt on input line 110.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 110.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 9.0pt on input line 110.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 9.0pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 9.0pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 9.0pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 9.0pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 110.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 110.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 110.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 110.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 110.
+Package natbib Warning: Citation `1' on page 1 undefined on input line 107.
 
 
-LaTeX Warning: Reference `TotPages' on page 1 undefined on input line 110.
-
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 110.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 110.
-LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 8.0pt on input line 110.
-LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 6.0pt on input line 110.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.0pt on input line 110.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.0pt on input line 110.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.0pt on input line 110.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.0pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.0pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.0pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.0pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.0pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.0pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.0pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.0pt on input line 110.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.0pt on input line 110.
-
-Package natbib Warning: Citation `wren-lewis_mental_2021' on page 1 undefined on input line 117.
+Package natbib Warning: Citation `2' on page 1 undefined on input line 107.
 
 
-Package natbib Warning: Citation `zhao_research_2025' on page 1 undefined on input line 117.
+Package natbib Warning: Citation `3' on page 1 undefined on input line 107.
 
 
-Package natbib Warning: Citation `c_ncheke_efficacy_2024' on page 1 undefined on input line 117.
+Package natbib Warning: Citation `4' on page 1 undefined on input line 109.
 
 
-Package natbib Warning: Citation `hua_large_2025' on page 1 undefined on input line 119.
+Package natbib Warning: Citation `5' on page 1 undefined on input line 109.
 
 
-Package natbib Warning: Citation `noauthor_applications_2025' on page 1 undefined on input line 119.
+Package natbib Warning: Citation `6' on page 1 undefined on input line 109.
 
 
-Package natbib Warning: Citation `lawrence_opportunities_2024' on page 1 undefined on input line 119.
+Package natbib Warning: Citation `7' on page 1 undefined on input line 109.
 
 
-Package natbib Warning: Citation `cho_task-specific_2024' on page 1 undefined on input line 119.
+Package natbib Warning: Citation `8' on page 1 undefined on input line 109.
+
+[1.1{C:/Users/bongapak!/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
+
+Package natbib Warning: Citation `9' on page 2 undefined on input line 111.
 
 
-Package natbib Warning: Citation `lawrence_opportunities_2024' on page 1 undefined on input line 119.
-
-[1.1{C:/Users/bongapak!/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}
-
-{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7grukw.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_naooyc.enc}]
-
-Package natbib Warning: Citation `noauthor_llama_nodate' on page 2 undefined on input line 121.
+Package natbib Warning: Citation `10' on page 2 undefined on input line 111.
 
 
-Package natbib Warning: Citation `noauthor_llama_nodate' on page 2 undefined on input line 121.
+Package natbib Warning: Citation `11' on page 2 undefined on input line 111.
 
 
-Package natbib Warning: Citation `noauthor_llama_nodate' on page 2 undefined on input line 121.
+Package natbib Warning: Citation `12' on page 2 undefined on input line 115.
 
 
-Package natbib Warning: Citation `zhao_tuning_2024' on page 2 undefined on input line 126.
+Package natbib Warning: Citation `11' on page 2 undefined on input line 115.
 
 
-Package natbib Warning: Citation `noauthor_llama_nodate' on page 2 undefined on input line 126.
+Package natbib Warning: Citation `12' on page 2 undefined on input line 117.
 
 
-Package natbib Warning: Citation `zhao_tuning_2024' on page 2 undefined on input line 128.
+Package natbib Warning: Citation `13' on page 2 undefined on input line 117.
 
 
-Package natbib Warning: Citation `noauthor_milo_nodate' on page 2 undefined on input line 128.
+Package natbib Warning: Citation `14' on page 2 undefined on input line 119.
+
+
+Package natbib Warning: Citation `15' on page 2 undefined on input line 119.
+
+
+Package natbib Warning: Citation `5' on page 2 undefined on input line 121.
+
+
+Package natbib Warning: Citation `5' on page 2 undefined on input line 121.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package natbib Warning: Citation `fernandes_flexidialogue_2025' on page 2 undefined on input line 130.
-
-
-Package natbib Warning: Citation `guo_soullmate_2025' on page 2 undefined on input line 130.
-
-
-Package natbib Warning: Citation `noauthor_applications_2025' on page 2 undefined on input line 132.
-
-
-Package natbib Warning: Citation `noauthor_applications_2025' on page 2 undefined on input line 132.
-
-
-Package natbib Warning: Citation `rosteck_bridging_2025' on page 2 undefined on input line 134.
-
-
-Package natbib Warning: Citation `newson_heterogeneity_2020' on page 2 undefined on input line 134.
-
-
-Package natbib Warning: Citation `sherwani_eshro_2025' on page 2 undefined on input line 136.
-
-
-Package natbib Warning: Citation `de_duro_introducing_2025' on page 2 undefined on input line 136.
-
-
-Package natbib Warning: Citation `lawrence_opportunities_2024' on page 2 undefined on input line 138.
-
-
-Package natbib Warning: Citation `lawrence_opportunities_2024' on page 2 undefined on input line 138.
-
-
-Package natbib Warning: Citation `zhao_research_2025' on page 2 undefined on input line 140.
-
-
-Package natbib Warning: Citation `zhao_research_2025' on page 2 undefined on input line 140.
-
-
-Package natbib Warning: Citation `c_ncheke_efficacy_2024' on page 2 undefined on input line 142.
-
-
-Package natbib Warning: Citation `wren-lewis_mental_2021' on page 2 undefined on input line 142.
-
-
-Package natbib Warning: Citation `singh_mental_2022' on page 2 undefined on input line 142.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 149.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 149.
  [2.2]
-<Figures/workflow.png, id=32, 786.94pt x 617.30624pt>
+
+Package natbib Warning: Citation `16' on page 3 undefined on input line 123.
+
+
+Package natbib Warning: Citation `17' on page 3 undefined on input line 123.
+
+
+Package natbib Warning: Citation `18' on page 3 undefined on input line 125.
+
+
+Package natbib Warning: Citation `19' on page 3 undefined on input line 125.
+
+
+Package natbib Warning: Citation `20' on page 3 undefined on input line 127.
+
+
+Package natbib Warning: Citation `8' on page 3 undefined on input line 127.
+
+
+Package natbib Warning: Citation `2' on page 3 undefined on input line 129.
+
+
+Package natbib Warning: Citation `2' on page 3 undefined on input line 129.
+
+
+Package natbib Warning: Citation `21' on page 3 undefined on input line 131.
+
+
+Package natbib Warning: Citation `1' on page 3 undefined on input line 131.
+
+
+Package natbib Warning: Citation `22' on page 3 undefined on input line 131.
+
+<Figures/workflow.png, id=25, 786.94pt x 617.30624pt>
 File: Figures/workflow.png Graphic file (type png)
 <use Figures/workflow.png>
-Package pdftex.def Info: Figures/workflow.png  used on input line 154.
-(pdftex.def)             Requested size: 241.14749pt x 189.15883pt.
-
-
-Class acmart Warning: A possible image without description on input line 157.
-
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 161.
+Package pdftex.def Info: Figures/workflow.png  used on input line 140.
+(pdftex.def)             Requested size: 344.005pt x 269.84474pt.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 141.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 147.
 (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 161.
+(Font)              scaled to size 9.0pt on input line 147.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-Package natbib Warning: Citation `reimers_sentence-bert_2019' on page 3 undefined on input line 161.
+Package natbib Warning: Citation `23' on page 3 undefined on input line 147.
 
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 147.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 6.6pt on input line 147.
+LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
+(Font)              scaled to size 9.0pt on input line 147.
+LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 147.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 9.0pt on input line 147.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 147.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 9.0pt on input line 147.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 147.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 9.0pt on input line 147.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 147.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 9.0pt on input line 147.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 147.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 9.0pt on input line 147.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 147.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 9.0pt on input line 147.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 147.
 
-Overfull \hbox (15.14362pt too wide) in paragraph at lines 165--166
-\T1/LinuxLibertineT-TLF/m/n/9 (-20) de-rived from col-lo-quial se-man-tic hook phrases. This dual-representation
+Overfull \hbox (1.71071pt too wide) in paragraph at lines 147--148
+\T1/LinuxLibertineT-TLF/m/n/9 (-20) items in re-sponse to user in-puts. Text em-bed-dings are gen-er-ated us-ing the \T1/zi4/m/n/9 sentence-transformers/all-MiniLM-L6-v2
  []
 
 
-Overfull \hbox (39.39275pt too wide) in paragraph at lines 167--168
-\T1/zi4/m/n/9 item_id\T1/LinuxLibertineT-TLF/m/n/9 (-20) , \T1/zi4/m/n/9 domain\T1/LinuxLibertineT-TLF/m/n/9 (-20) , \T1/zi4/m/n/9 scoring_rules\T1/LinuxLibertineT-TLF/m/n/9 (-20) , \T1/zi4/m/n/9 severity_thresholds\T1/LinuxLibertineT-TLF/m/n/9 (-20) , and \T1/zi4/m/n/9 is_critical
- []
+Underfull \vbox (badness 2073) has occurred while \output is active []
+
+ [3.3{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}]
+
+Package natbib Warning: Citation `24' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `kroenke_phq-9_2001' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `25' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `levis_accuracy_2019' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `26' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `spitzer_brief_2006' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `27' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `forkus_posttraumatic_2023' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `28' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `bastien_validation_2001' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `29' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `cohen_global_1983' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `30' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `kessler_world_2005' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `31' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `saunders_development_1993' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `32' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `skinner_drug_1982' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `33' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `wootton_contemporary_2015' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `34' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `mattick_development_1998' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `35' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `maslach_maslach_1997' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `36' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `hirschfeld_development_2000' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `37' on page 4 undefined on input line 156.
 
 
-Package natbib Warning: Citation `gormally_assessment_1982' on page 3 undefined on input line 171.
+Package natbib Warning: Citation `4' on page 4 undefined on input line 158.
 
-
-Package natbib Warning: Citation `hua_large_2025' on page 3 undefined on input line 173.
-
-
-Overfull \hbox (6.22046pt too wide) in paragraph at lines 181--182
-[]\T1/LinuxLibertineT-TLF/m/n/9 (-20) A hook-based se-man-tic com-pres-sion strat-egy is em-ployed, wherein
- []
-
-<Figures/fig2.png, id=34, 2360.82pt x 469.755pt>
+[4.4 <./Figures/workflow.png>]
+<Figures/fig2.png, id=44, 2360.82pt x 469.755pt>
 File: Figures/fig2.png Graphic file (type png)
 <use Figures/fig2.png>
-Package pdftex.def Info: Figures/fig2.png  used on input line 198.
-(pdftex.def)             Requested size: 241.14749pt x 47.98175pt.
+Package pdftex.def Info: Figures/fig2.png  used on input line 181.
+(pdftex.def)             Requested size: 344.005pt x 68.44603pt.
 
-Class acmart Warning: A possible image without description on input line 201.
 
-[3.3{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_oexx6f.enc} <./Figures/workflow.png>]
+Package natbib Warning: Citation `18' on page 5 undefined on input line 192.
 
-Package natbib Warning: Citation `sherwani_eshro_2025' on page 4 undefined on input line 209.
-
-<Figures/fig3.png, id=52, 2360.82pt x 424.58624pt>
+<Figures/fig3.png, id=45, 2360.82pt x 424.58624pt>
 File: Figures/fig3.png Graphic file (type png)
 <use Figures/fig3.png>
-Package pdftex.def Info: Figures/fig3.png  used on input line 213.
-(pdftex.def)             Requested size: 241.14749pt x 43.36812pt.
-
-Class acmart Warning: A possible image without description on input line 216.
-
+Package pdftex.def Info: Figures/fig3.png  used on input line 196.
+(pdftex.def)             Requested size: 344.005pt x 61.86469pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 220.
+(Font)              scaled to size 6.6pt on input line 204.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 220.
+(Font)              scaled to size 5.5pt on input line 204.
+[5.5 <./Figures/fig2.png>] [6.6 <./Figures/fig3.png>] [7.7]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 7.0pt on input line 302.
 
-Overfull \hbox (45.64899pt too wide) in paragraph at lines 248--258
- [][] 
+Underfull \hbox (badness 4403) in paragraph at lines 324--325
+[]\T1/LinuxLibertineT-TLF/m/n/7 (+20) X. Zhao, Y. Gao, and Y. Zhang. 2024. Tun-ing LLaMA Model with Men-tal Dis-or-ders Knowl-edge. \T1/LinuxLibertineT-TLF/m/it/7 (+20) Re-search Square \T1/LinuxLibertineT-TLF/m/n/7 (+20) (April 2024).
  []
 
 
-LaTeX Warning: Reference `tab:automated' on page 4 undefined on input line 260.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8.8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9.9] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:384: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.384 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
 
 
-Package natbib Warning: Citation `sherwani_eshro_2025' on page 4 undefined on input line 305.
+e:/Documents/Code/ResearchPaper/IEEE.tex:384: Package Listings Error: language json undefined.
 
-[4.4 <./Figures/fig2.png> <./Figures/fig3.png>]
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.384 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-Package natbib Warning: Citation `singh_mental_2022' on page 5 undefined on input line 314.
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 5.0pt on input line 384.
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:408: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.408 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
 
 
-Package natbib Warning: Citation `sherwani_eshro_2025' on page 5 undefined on input line 314.
+e:/Documents/Code/ResearchPaper/IEEE.tex:408: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.408 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:425: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.425 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
 
 
-Package natbib Warning: Citation `sherwani_eshro_2025' on page 5 undefined on input line 314.
+e:/Documents/Code/ResearchPaper/IEEE.tex:425: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.425 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:441: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.441 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
 
 
-Package natbib Warning: Citation `lawrence_opportunities_2024' on page 5 undefined on input line 316.
+e:/Documents/Code/ResearchPaper/IEEE.tex:441: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.441 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 444.
+[10.10]
+LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 449.
+ (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ts1zi4.fd
+File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
+(Font)              scaled to size 5.0pt on input line 449.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zi4' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:457: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.457 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
 
 
-Package natbib Warning: Citation `singh_mental_2022' on page 5 undefined on input line 316.
+e:/Documents/Code/ResearchPaper/IEEE.tex:457: Package Listings Error: language json undefined.
 
-(ACM.bbl [5.5])
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.457 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:472: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.472 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:472: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.472 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:487: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.487 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:487: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.487 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:509: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.509 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:509: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.509 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[11.11{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-ts1.enc}] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:531: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.531 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:531: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.531 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:553: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.553 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:553: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.553 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:574: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.574 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:574: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.574 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[12.12] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:590: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.590 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:590: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.590 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:605: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.605 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:605: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.605 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:620: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.620 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:620: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.620 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[13.13] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+) [14.14] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:729: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.729 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:729: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.729 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:743: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.743 \begin{lstlisting}[language=json]
+                                       
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:743: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.743 \begin{lstlisting}[language=json]
+                                       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[15.15] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:778: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.778 ...io 1: RAPPORT Phase --- Initial Greeting]
+                                                  
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:778: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.778 ...io 1: RAPPORT Phase --- Initial Greeting]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 778.
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:788: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.788 ...6: SCREENING Phase --- Overlap Detection]
+                                                  
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:788: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.788 ...6: SCREENING Phase --- Overlap Detection]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+File: lstlang2.sty 2025/11/14 1.11b listings language file
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+File: lstlang3.sty 2025/11/14 1.11b listings language file
+)
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:798: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.798 ...REENING Phase --- Crisis (Deterministic)]
+                                                  
+The following languages weren't loadable:
+    ,json$
+This may cause errors in the sequel.
+
+
+e:/Documents/Code/ResearchPaper/IEEE.tex:798: Package Listings Error: language json undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.798 ...REENING Phase --- Crisis (Deterministic)]
+                                                  
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[16.16]
+
+LaTeX Warning: Reference `tab:llm_providers' on page 17 undefined on input line 845.
+
+[17.17] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
 
 Package natbib Warning: There were undefined citations.
 
-
-Class acmart Warning: Some images may lack descriptions.
-(acmart)              ACM is committed to complying with the upcoming US ADA https://accessiblyapp.com/accessibility-compliance/ada/ and European Accessibility Act (EAA) https://accessiblyapp.com/accessibility-compliance/eaa/ regulations by actively working to ensure our publications and application services are accessible to individuals with disabilities, adhering to the WCAG guidelines to provide a seamless experience for all users, and regularly reviewing our accessibility practices to maintain compliance with evolving standards. 
-(acmart)              To this end, we strongly encourage our authors to provide alternative text and captions for images and multimedia content. It is also important to optimize color contrast for the visually impaired. Taking these important steps when creating your papers will ensure that the widest possible audience can ingest your work..
-
-[6.6] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.def
+[18.18] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [7.6] (ACM.aux
+) [19.18] (IEEE.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
@@ -1456,26 +2034,26 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
 
 
-Package rerunfilecheck Warning: File `ACM.out' has changed.
+Package rerunfilecheck Warning: File `IEEE.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `ACM.out':
+Package rerunfilecheck Info: Checksums for `IEEE.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  058B116AA2B2AADFB189DB4A11453BED;3407.
+(rerunfilecheck)             After:  1F1D66C73DA7A2AE535564AEEF7CF3F7;12383.
  ) 
 Here is how much of TeX's memory you used:
- 22900 strings out of 467871
- 375288 string characters out of 5416441
- 862572 words of memory out of 5000000
- 50700 multiletter control sequences out of 15000+600000
- 798546 words of font info for 427 fonts, out of 8000000 for 9000
+ 25011 strings out of 467871
+ 407459 string characters out of 5416441
+ 1364628 words of memory out of 5000000
+ 52332 multiletter control sequences out of 15000+600000
+ 790419 words of font info for 394 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,12n,131p,1878b,733s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,131p,1769b,2152s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineMathMI.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on ACM.pdf (7 pages, 662209 bytes).
+Output written on IEEE.pdf (19 pages, 744921 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 90656 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 682 PDF objects out of 1000 (max. 8388607)
+ 451 named destinations out of 1000 (max. 500000)
+ 79392 words of extra memory for PDF output out of 89155 (max. 10000000)
 

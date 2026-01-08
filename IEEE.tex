@@ -1,13 +1,21 @@
-\documentclass[conference]{IEEEtran}
-\IEEEoverridecommandlockouts
-\usepackage{cite}
+\documentclass[manuscript,screen]{acmart}
+
+% Suppress ACM reference and copyright for submission
+\settopmatter{printacmref=false}
+\setcopyright{none}
+\renewcommand{\footnotetextcopyrightpermission}[1]{}
+
+% Remove all headers and footers
+\pagestyle{empty}
+\AtBeginDocument{\thispagestyle{empty}}
+
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
+\usepackage{booktabs}
 \usepackage{listings}
-\usepackage{xcolor}
 
 \lstset{
     basicstyle=\ttfamily\tiny, % Small font to prevent overflow
@@ -21,31 +29,78 @@
     morecomment=[l][\color{magenta}]{\#}
 }
 
-\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
-
 \begin{document}
 
 \title{AURIS: An LLM-Driven Framework for Structured Mental Health Assessment Using Mixture-of-Experts Architecture}
 
-\author{
-    \IEEEauthorblockN{Tristan James Y. Tolentino, Julia Laine G. Segundo, Adrian T. Sajulga, and Jun Albert S. Pardillo}
-    \IEEEauthorblockA{\textit{Department of Computer Science} \\
-    \textit{Cebu Institute of Technology – University}\\
-    Cebu City, Philippines \\
-    \{tristanjame.tolentino, juliaalaine.segundo, adrian.sajulga, junalbert.pardillo@cit.edu\}@cit.edu}
+\author{Tristan James Y. Tolentino}
+\email{tristanjame.tolentino@cit.edu}
+\affiliation{%
+  \institution{Cebu Institute of Technology – University}
+  \department{Department of Computer Science}
+  \city{Cebu City}
+  \country{Philippines}
 }
 
-\maketitle
+\author{Julia Laine G. Segundo}
+\email{juliaalaine.segundo@cit.edu}
+\affiliation{%
+  \institution{Cebu Institute of Technology – University}
+  \department{Department of Computer Science}
+  \city{Cebu City}
+  \country{Philippines}
+}
+
+\author{Adrian T. Sajulga}
+\email{adrian.sajulga@cit.edu}
+\affiliation{%
+  \institution{Cebu Institute of Technology – University}
+  \department{Department of Computer Science}
+  \city{Cebu City}
+  \country{Philippines}
+}
+
+\author{Jun Albert S. Pardillo}
+\email{junalbert.pardillo@cit.edu}
+\affiliation{%
+  \institution{Cebu Institute of Technology – University}
+  \department{Department of Computer Science}
+  \city{Cebu City}
+  \country{Philippines}
+}
+
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10010147.10010257</concept_id>
+<concept_desc>Computing methodologies~Artificial intelligence</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10003120.10003138</concept_id>
+<concept_desc>Human-centered computing~Natural language interfaces</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10003752.10003809.10010031</concept_id>
+<concept_desc>Applied computing~Health informatics</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Computing methodologies~Artificial intelligence}
+\ccsdesc[500]{Human-centered computing~Natural language interfaces}
+\ccsdesc[300]{Applied computing~Health informatics}
 
 \begin{abstract}
 The global mental health treatment gap, driven by stigma and resource shortages, has necessitated the development of scalable, accessible screening tools. This study introduces AURIS, a retrieval-augmented, safety-aware conversational agent designed for structured clinical mental health assessment. Leveraging the LLaMA 4 Scout mixture-of-experts (MoE) architecture and a Retrieval-Augmented Generation (RAG) pipeline, AURIS integrates 14 validated clinical instruments comprising 178 assessment items. The system follows a three-phase interaction model—Rapport, Screening, and Snapshot—to maintain contextual coherence while facilitating clinical precision.
 System performance was evaluated using the ESHRO hybrid framework, which combines automated linguistic metrics with expert human review. Results indicate a final composite score of 0.76, with a notable excellence in Safety (1.00) and Empathy (0.88) according to human evaluators. However, a significant divergence was observed between automated relevance scores (0.53) and human judgment, suggesting that standard NLP metrics like cosine similarity are insufficient for capturing clinical nuances such as therapeutic alliance. The findings demonstrate that while AURIS is not a replacement for traditional therapy, it serves as a robust prototype for preventive psychiatry, providing a safe and empathetic first point of contact for underserved populations. Future research will focus on domain-specific fine-tuning and the development of clinically aligned automated evaluation metrics.
 \end{abstract}
 
-\begin{IEEEkeywords}
-Large Language Models (LLMs), LLaMA 4 Scout, Retrieval-Augmented Generation (RAG), Mental Health Screening, ESHRO Framework, Preventive Psychiatry, Conversational Agents, Clinical Assessment.
-\end{IEEEkeywords}
+\keywords{Large Language Models (LLMs), LLaMA 4 Scout, Retrieval-Augmented Generation (RAG), Mental Health Screening, ESHRO Framework, Preventive Psychiatry, Conversational Agents, Clinical Assessment}
+
+\maketitle
 
 \section{Introduction}
 
@@ -82,8 +137,9 @@ AURIS is designed exclusively for preliminary screening and structured informati
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\linewidth]{Figures/workflow.png} 
+\includegraphics[width=0.8\textwidth]{Figures/workflow.png} 
 \caption{End-to-end AURIS workflow from user input to structured clinical snapshot}
+\Description{A flowchart diagram showing the complete AURIS system workflow, illustrating the data flow from initial user input through the RAG pipeline, screening phases, and final clinical snapshot generation.}
 \label{fig:workflow}
 \end{figure}
 
@@ -97,7 +153,7 @@ To improve recall across heterogeneous user language styles, dual embeddings are
 To reduce redundancy across overlapping diagnostic instruments (e.g., sleep-related items shared by GAD-7 and ISI), an overlap detection module identifies the top-2 most relevant scales and injects discriminatory prompts designed to elicit differentiating symptoms. Retrieved items propagate their metadata—including \texttt{scale\_id}, \texttt{item\_id}, \texttt{domain}, \texttt{scoring\_rules}, \texttt{severity\_thresholds}, and \texttt{is\_critical} flags—through all downstream pipeline stages.
 
 \subsection{Clinical Questionnaires and Instrument Coverage}
-The system integrates fourteen validated clinical questionnaires, comprising a total of 178 individual items, covering the domains of depression, anxiety, PTSD, sleep disturbance, perceived stress, substance use, ADHD, OCD, social anxiety, burnout, bipolar disorder screening, and eating disorders \cite{24}--\cite{37}.
+The system integrates fourteen validated clinical questionnaires, comprising a total of 178 individual items, covering the domains of depression, anxiety, PTSD, sleep disturbance, perceived stress, substance use, ADHD, OCD, social anxiety, burnout, bipolar disorder screening, and eating disorders \cite{24,25,26,27,28,29,30,31,32,33,34,35,36,37}.
 
 Questionnaire items, scoring rules, reverse-scoring flags, and severity thresholds were programmatically extracted using Gemini 3 Thinking, followed by manual verification against original instrument publications. Severity classifications strictly follow published cutoffs; for example, PHQ-9 severity ranges are defined as minimal (0--4), mild (5--9), moderate (10--14), moderately severe (15--19), and severe (20--27) \cite{4}.
 
@@ -122,8 +178,9 @@ Conversation state is maintained using an \texttt{AssessmentState} TypedDict, wh
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\linewidth]{Figures/fig2.png}
+\includegraphics[width=0.8\textwidth]{Figures/fig2.png}
 \caption{RAG-driven screening pipeline, phase transitions, and state management}
+\Description{A system architecture diagram depicting the RAG-driven screening pipeline with three phases (Rapport, Screening, Snapshot), showing state transitions, query processing, and clinical data extraction components.}
 \label{fig:pipeline}
 \end{figure}
 
@@ -136,8 +193,9 @@ System performance is evaluated using the ESHRO hybrid evaluation framework \cit
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=\linewidth]{Figures/fig3.png}
+\includegraphics[width=0.8\textwidth]{Figures/fig3.png}
 \caption{ESHRO evaluation framework and safety enforcement integration}
+\Description{A diagram illustrating the ESHRO hybrid evaluation framework showing the combination of automated metrics and human proxy evaluation along with integrated safety enforcement mechanisms.}
 \label{fig:eshro}
 \end{figure}
 
@@ -167,15 +225,15 @@ The automated evaluation, which accounts for 70\% of the final score, resulted i
 \begin{table}[htbp]
 \caption{Automated Evaluation Summary}
 \begin{center}
-\begin{tabular}{|l|c|c|}
-\hline
+\begin{tabular}{lcc}
+\toprule
 \textbf{Metric} & \textbf{Cosine Similarity} & \textbf{util.semantic\_search} \\
-\hline
+\midrule
 Relevance (RRS) & 0.53 & 0.53 \\
 Quality (RQS) & 0.89 & 0.89 \\
-\hline
+\midrule
 \textbf{Overall Automated Score} & \textbf{0.71} & \textbf{0.71} \\
-\hline
+\bottomrule
 \end{tabular}
 \label{table1}
 \end{center}
@@ -189,16 +247,16 @@ Human evaluation, representing 30\% of the total ESHRO weight, yielded a higher 
 \begin{table}[htbp]
 \caption{Human Evaluation Expert Review Scores (ERS)}
 \begin{center}
-\begin{tabular}{|l|c|c|}
-\hline
+\begin{tabular}{lcc}
+\toprule
 \textbf{Category} & \textbf{Score} & \textbf{Weighting} \\
-\hline
+\midrule
 Empathy & 0.88 (Avg) & 40\% \\
 Helpfulness & 0.75 (Avg) & 30\% \\
 Safety & 1.00 (Avg) & 20\% \\
-\hline
+\midrule
 \textbf{Overall Human Score} & \textbf{0.88} & \textbf{100\%} \\
-\hline
+\bottomrule
 \end{tabular}
 \label{table2}
 \end{center}
@@ -212,15 +270,15 @@ The final weighted performance of the AURIS agent reached 0.76. This score refle
 \begin{table}[htbp]
 \caption{Final Composite Scores}
 \begin{center}
-\begin{tabular}{|l|c|c|}
-\hline
+\begin{tabular}{lcc}
+\toprule
 \textbf{Metric Category} & \textbf{Score} & \textbf{Weight} \\
-\hline
+\midrule
 Automated Metrics & 0.71 & 70\% \\
 Human Metrics & 0.88 & 30\% \\
-\hline
+\midrule
 \textbf{Final ESHRO Score} & \textbf{0.76} & \textbf{100\%} \\
-\hline
+\bottomrule
 \end{tabular}
 \label{table3}
 \end{center}
@@ -241,85 +299,83 @@ For future researchers and practitioners, several avenues remain critical for th
 
 \begin{thebibliography}{00}
 
-\bibitem{1} S. Wren-Lewis and A. Alexandrova, ``Mental Health Without Well-being,'' \textit{J. Med. Philos. Forum Bioeth. Philos. Med.}, vol. 46, no. 6, pp. 684--703, Dec. 2021, doi: 10.1093/jmp/jhab032. 
+\bibitem[1]{1} S. Wren-Lewis and A. Alexandrova. 2021. Mental Health Without Well-being. \textit{Journal of Medicine and Philosophy} 46, 6 (December 2021), 684--703. DOI:https://doi.org/10.1093/jmp/jhab032 
 
-\bibitem{2} R. Zhao et al., ``Research Review: Help‐seeking intentions, behaviors, and barriers in college students – a systematic review and meta‐analysis,'' \textit{J. Child Psychol. Psychiatry}, vol. 66, no. 10, pp. 1593--1605, Oct. 2025, doi: 10.1111/jcpp.14145. 
+\bibitem[2]{2} R. Zhao et al. 2025. Research Review: Help-seeking intentions, behaviors, and barriers in college students -- a systematic review and meta-analysis. \textit{Journal of Child Psychology and Psychiatry} 66, 10 (October 2025), 1593--1605. DOI:https://doi.org/10.1111/jcpp.14145 
 
-\bibitem{3} Dr. D. C. Ncheke et al., ``Efficacy of Talk Therapy on Academic Depression Behaviour of Students Enrolled in Counselling, Psychology and Sociology of Education (CPSE),'' \textit{Educ. Adm. Theory Pract.}, 2024, doi: 10.53555/kuey.v30i10.8123.
+\bibitem[3]{3} D. C. Ncheke et al. 2024. Efficacy of Talk Therapy on Academic Depression Behaviour of Students Enrolled in Counselling, Psychology and Sociology of Education (CPSE). \textit{Educational Administration: Theory and Practice} (2024). DOI:https://doi.org/10.53555/kuey.v30i10.8123
 
-\bibitem{4} Y. Hua et al., ``Large Language Models in Mental Health Care: a Scoping Review,'' \textit{arXiv.org}, 2024. [Online]. Available: https://arxiv.org/abs/2401.02984 (accessed Jan. 04, 2026). 
+\bibitem[4]{4} Y. Hua et al. 2024. Large Language Models in Mental Health Care: a Scoping Review. \textit{arXiv preprint arXiv:2401.02984} (2024). Retrieved January 4, 2026 from https://arxiv.org/abs/2401.02984 
 
-\bibitem{5} Y. Jin et al., ``The Applications of Large Language Models in Mental Health: Scoping Review,'' \textit{Journal of Medical Internet Research}, vol. 27, pp. e69284--e69284, Mar. 2025, doi: 10.2196/69284. 
+\bibitem[5]{5} Y. Jin et al. 2025. The Applications of Large Language Models in Mental Health: Scoping Review. \textit{Journal of Medical Internet Research} 27 (March 2025), e69284. DOI:https://doi.org/10.2196/69284 
 
-\bibitem{6} Z. Guo, A. Lai, J. H. Thygesen, J. Farrington, T. Keen, and K. Li, ``Large Language Models for Mental Health Applications: Systematic Review,'' \textit{JMIR Mental Health}, vol. 11, p. e57400, Oct. 2024, doi: 10.2196/57400. 
+\bibitem[6]{6} Z. Guo, A. Lai, J. H. Thygesen, J. Farrington, T. Keen, and K. Li. 2024. Large Language Models for Mental Health Applications: Systematic Review. \textit{JMIR Mental Health} 11 (October 2024), e57400. DOI:https://doi.org/10.2196/57400 
 
-\bibitem{7} H. N. Cho et al., ``Task-Specific Transformer-Based Language Models in Health Care: Scoping Review,'' \textit{JMIR Medical Informatics}, vol. 12, pp. e49724--e49724, Oct. 2024, doi: 10.2196/49724. 
+\bibitem[7]{7} H. N. Cho et al. 2024. Task-Specific Transformer-Based Language Models in Health Care: Scoping Review. \textit{JMIR Medical Informatics} 12 (October 2024), e49724. DOI:https://doi.org/10.2196/49724 
 
-\bibitem{8} H. R. Lawrence, R. A. Schneider, S. B. Rubin, M. J. Mataric, D. J. McDuff, and M. J. Bell, ``The Opportunities and Risks of Large Language Models in Mental Health,'' \textit{JMIR Mental Health}, vol. 11, pp. e59479--e59479, Jul. 2024, doi: 10.2196/59479. 
+\bibitem[8]{8} H. R. Lawrence, R. A. Schneider, S. B. Rubin, M. J. Mataric, D. J. McDuff, and M. J. Bell. 2024. The Opportunities and Risks of Large Language Models in Mental Health. \textit{JMIR Mental Health} 11 (July 2024), e59479. DOI:https://doi.org/10.2196/59479 
 
-\bibitem{9} Meta AI, ``LLaMA 4: Advancing multimodal intelligence,'' Meta AI Research, Tech. Rep., 2025. [Online]. Available: https://ai.meta.com/blog/llama-4-multimodal-intelligence/
+\bibitem[9]{9} Meta AI. 2025. LLaMA 4: Advancing multimodal intelligence. Technical Report. Meta AI Research. Retrieved from https://ai.meta.com/blog/llama-4-multimodal-intelligence/
 
-\bibitem{10} ``llama-4-scout-17b-16e-instruct,'' Cloudflare Docs, 2026. [Online]. Available: https://developers.cloudflare.com/workers-ai/models/llama-4-scout-17b-16e-instruct/ (accessed Jan. 04, 2026). 
+\bibitem[10]{10} Cloudflare. 2026. llama-4-scout-17b-16e-instruct. Cloudflare Docs (2026). Retrieved January 4, 2026 from https://developers.cloudflare.com/workers-ai/models/llama-4-scout-17b-16e-instruct/ 
 
-\bibitem{11} ``The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation,'' Meta.com, 2026. [Online]. Available: https://ai.meta.com/blog/llama-4-multimodal-intelligence/ (accessed Jan. 04, 2026).
+\bibitem[11]{11} Meta. 2026. The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation. Meta AI Blog (2026). Retrieved January 4, 2026 from https://ai.meta.com/blog/llama-4-multimodal-intelligence/
 
-\bibitem{12} X. Zhao, Y. Gao, and Y. Zhang, ``Tuning LLaMA Model with Mental Disorders Knowledge,'' \textit{Research Square}, Apr. 2024, doi: 10.21203/rs.3.rs-4250151/v1.
+\bibitem[12]{12} X. Zhao, Y. Gao, and Y. Zhang. 2024. Tuning LLaMA Model with Mental Disorders Knowledge. \textit{Research Square} (April 2024). DOI:https://doi.org/10.21203/rs.3.rs-4250151/v1
 
-\bibitem{13} H. Bao, Y. Yu, B. Wang, X. Lu, and X. Tong, ``MILO: An LLM Multi-Stage Conversational Agent for Fostering Teenagers’ Mental Resilience,'' pp. 1–3, Sep. 2025, doi: 10.1145/3746058.3758411.
+\bibitem[13]{13} H. Bao, Y. Yu, B. Wang, X. Lu, and X. Tong. 2025. MILO: An LLM Multi-Stage Conversational Agent for Fostering Teenagers' Mental Resilience. In \textit{Proceedings of the 2025 Conference}, 1--3. DOI:https://doi.org/10.1145/3746058.3758411
 
-\bibitem{14} J. Fernandes, A. Antunes, J. Campos, J. Dias, and P. Santos, ``FlexiDialogue: Integrating Dialogue Trees for Mental Health with Large Language Models,'' \textit{Proceedings of the 11th International Conference on Information and Communication Technologies for Ageing Well and e-Health}, pp. 268–275, 2025, doi: 10.5220/0013286900003938.
+\bibitem[14]{14} J. Fernandes, A. Antunes, J. Campos, J. Dias, and P. Santos. 2025. FlexiDialogue: Integrating Dialogue Trees for Mental Health with Large Language Models. In \textit{Proceedings of the 11th International Conference on Information and Communication Technologies for Ageing Well and e-Health}, 268--275. DOI:https://doi.org/10.5220/0013286900003938
 
-\bibitem{15} Q. Guo, J. Tang, W. Sun, H. Tang, Y. Shang, and W. Wang, ``SouLLMate: An Adaptive LLM-Driven System for Advanced Mental Health Support and Assessment, Based on a Systematic Application Survey,'' \textit{arXiv (Cornell University)}, Oct. 2024, doi: 10.48550/arxiv.2410.11859.
+\bibitem[15]{15} Q. Guo, J. Tang, W. Sun, H. Tang, Y. Shang, and W. Wang. 2024. SouLLMate: An Adaptive LLM-Driven System for Advanced Mental Health Support and Assessment, Based on a Systematic Application Survey. \textit{arXiv preprint arXiv:2410.11859} (October 2024). DOI:https://doi.org/10.48550/arxiv.2410.11859
 
-\bibitem{16} N. Rosteck, J. Striegl, and C. Loitsch, ``Bridging the Treatment Gap: A Novel LLM-Driven System for Scalable Initial Patient Assessments in Mental Healthcare,'' pp. 1–8, Apr. 2025, doi: 10.1145/3706599.3720043.
+\bibitem[16]{16} N. Rosteck, J. Striegl, and C. Loitsch. 2025. Bridging the Treatment Gap: A Novel LLM-Driven System for Scalable Initial Patient Assessments in Mental Healthcare. In \textit{Proceedings of the 2025 Conference}, 1--8. DOI:https://doi.org/10.1145/3706599.3720043
 
-\bibitem{17} J. J. Newson, D. Hunter, and T. C. Thiagarajan, ``The heterogeneity of mental health assessment,'' \textit{Frontiers in Psychiatry}, vol. 11, no. 76, pp. 1–24, Feb. 2020, doi: 10.3389/fpsyt.2020.00076.
+\bibitem[17]{17} J. J. Newson, D. Hunter, and T. C. Thiagarajan. 2020. The heterogeneity of mental health assessment. \textit{Frontiers in Psychiatry} 11, 76 (February 2020), 1--24. DOI:https://doi.org/10.3389/fpsyt.2020.00076
 
-\bibitem{18} S. Sherwani, Z. Khan, J. Samuel, R. Kashyap, and K. Patel, ``ESHRO: An Innovative Evaluation Framework for AI-Driven Mental Health Chatbots,'' Jan. 2025, doi: 10.13140/rg.2.2.10861.50401.
+\bibitem[18]{18} S. Sherwani, Z. Khan, J. Samuel, R. Kashyap, and K. Patel. 2025. ESHRO: An Innovative Evaluation Framework for AI-Driven Mental Health Chatbots. Technical Report (January 2025). DOI:https://doi.org/10.13140/rg.2.2.10861.50401
 
-\bibitem{19} E. S. De Duro, R. Improta, and M. Stella, ``Introducing CounseLLMe: A dataset of simulated mental health dialogues for comparing LLMs like Haiku, LLaMAntino and ChatGPT against humans,'' \textit{Emerging Trends in Drugs, Addictions, and Health}, vol. 5, p. 100170, Dec. 2025, doi: 10.1016/j.etdah.2025.100170.
+\bibitem[19]{19} E. S. De Duro, R. Improta, and M. Stella. 2025. Introducing CounseLLMe: A dataset of simulated mental health dialogues for comparing LLMs like Haiku, LLaMAntino and ChatGPT against humans. \textit{Emerging Trends in Drugs, Addictions, and Health} 5 (December 2025), 100170. DOI:https://doi.org/10.1016/j.etdah.2025.100170
 
-\bibitem{20} Z. Guo, A. Lai, J. H. Thygesen, J. Farrington, T. Keen, and K. Li, ``Large Language Models for Mental Health Applications: A Systematic Review (Preprint),'' \textit{JMIR Mental Health}, vol. 11, pp. e57400--e57400, Sep. 2024, doi: 10.2196/57400.
+\bibitem[20]{20} Z. Guo, A. Lai, J. H. Thygesen, J. Farrington, T. Keen, and K. Li. 2024. Large Language Models for Mental Health Applications: A Systematic Review (Preprint). \textit{JMIR Mental Health} 11 (September 2024), e57400. DOI:https://doi.org/10.2196/57400
 
-\bibitem{21} D. C. Ncheke et al., ``Efficacy of Talk Therapy on Academic Depression Behaviour of Students Enrolled in Counselling, Psychology and Sociology of Education (CPSE),'' Jan. 2024, doi: 10.53555/kuey.v30i10.8123.
+\bibitem[21]{21} D. C. Ncheke et al. 2024. Efficacy of Talk Therapy on Academic Depression Behaviour of Students Enrolled in Counselling, Psychology and Sociology of Education (CPSE). \textit{Educational Administration: Theory and Practice} (January 2024). DOI:https://doi.org/10.53555/kuey.v30i10.8123
 
-\bibitem{22} V. Singh, A. Kumar, and S. Gupta, ``Mental Health Prevention and Promotion—a Narrative Review,'' \textit{Frontiers in Psychiatry}, vol. 13, no. 13, 2022, doi: 10.3389/fpsyt.2022.898009.
+\bibitem[22]{22} V. Singh, A. Kumar, and S. Gupta. 2022. Mental Health Prevention and Promotion---a Narrative Review. \textit{Frontiers in Psychiatry} 13, 13 (2022). DOI:https://doi.org/10.3389/fpsyt.2022.898009
 
-\bibitem{23} N. Reimers and I. Gurevych, ``Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks,'' \textit{arXiv (Cornell University)}, Aug. 2019, doi: 10.48550/arxiv.1908.10084.
+\bibitem[23]{23} N. Reimers and I. Gurevych. 2019. Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. \textit{arXiv preprint arXiv:1908.10084} (August 2019). DOI:https://doi.org/10.48550/arxiv.1908.10084
 
-\bibitem{24} K. Kroenke, R. L. Spitzer, and J. B. W. Williams, ``The PHQ-9: Validity of a Brief Depression Severity Measure,'' \textit{Journal of General Internal Medicine}, vol. 16, no. 9, pp. 606–613, 2001, doi: 10.1046/j.1525-1497.2001.016009606.x.
+\bibitem[24]{24} K. Kroenke, R. L. Spitzer, and J. B. W. Williams. 2001. The PHQ-9: Validity of a Brief Depression Severity Measure. \textit{Journal of General Internal Medicine} 16, 9 (2001), 606--613. DOI:https://doi.org/10.1046/j.1525-1497.2001.016009606.x
 
-\bibitem{25} B. Levis, A. Benedetti, and B. D. Thombs, ``Accuracy of Patient Health Questionnaire-9 (PHQ-9) for screening to detect major depression: individual participant data meta-analysis,'' \textit{BMJ}, vol. 365, no. 1476, Apr. 2019, doi: 10.1136/bmj.l1476.
+\bibitem[25]{25} B. Levis, A. Benedetti, and B. D. Thombs. 2019. Accuracy of Patient Health Questionnaire-9 (PHQ-9) for screening to detect major depression: individual participant data meta-analysis. \textit{BMJ} 365, l1476 (April 2019). DOI:https://doi.org/10.1136/bmj.l1476
 
-\bibitem{26} R. L. Spitzer, K. Kroenke, J. B. W. Williams, and B. Löwe, ``A Brief Measure for Assessing Generalized Anxiety disorder: the GAD-7,'' \textit{Archives of Internal Medicine}, vol. 166, no. 10, pp. 1092–1097, 2006, doi: 10.1001/archinte.166.10.1092.
+\bibitem[26]{26} R. L. Spitzer, K. Kroenke, J. B. W. Williams, and B. Löwe. 2006. A Brief Measure for Assessing Generalized Anxiety disorder: the GAD-7. \textit{Archives of Internal Medicine} 166, 10 (2006), 1092--1097. DOI:https://doi.org/10.1001/archinte.166.10.1092
 
-\bibitem{27} S. R. Forkus et al., ``The posttraumatic stress disorder (PTSD) checklist for DSM–5: A systematic review of existing psychometric evidence.,'' \textit{Clinical Psychology: Science and Practice}, vol. 30, no. 1, pp. 110–121, Sep. 2022, doi: 10.1037/cps0000111.
+\bibitem[27]{27} S. R. Forkus et al. 2022. The posttraumatic stress disorder (PTSD) checklist for DSM-5: A systematic review of existing psychometric evidence. \textit{Clinical Psychology: Science and Practice} 30, 1 (September 2022), 110--121. DOI:https://doi.org/10.1037/cps0000111
 
-\bibitem{28} C. Bastien, A. Vallières, and C. M. Morin, ``Validation of the Insomnia Severity Index as an outcome measure for insomnia research,'' \textit{Sleep Medicine}, vol. 2, no. 4, pp. 297–307, Jul. 2001, doi: 10.1016/s1389-9457(00)00065-4.
+\bibitem[28]{28} C. Bastien, A. Vallières, and C. M. Morin. 2001. Validation of the Insomnia Severity Index as an outcome measure for insomnia research. \textit{Sleep Medicine} 2, 4 (July 2001), 297--307. DOI:https://doi.org/10.1016/s1389-9457(00)00065-4
 
-\bibitem{29} S. Cohen, T. Kamarck, and R. Mermelstein, ``A global measure of perceived stress,'' \textit{Journal of Health and Social Behavior}, vol. 24, no. 4, pp. 385–396, Dec. 1983, doi: 10.2307/2136404.
+\bibitem[29]{29} S. Cohen, T. Kamarck, and R. Mermelstein. 1983. A global measure of perceived stress. \textit{Journal of Health and Social Behavior} 24, 4 (December 1983), 385--396. DOI:https://doi.org/10.2307/2136404
 
-\bibitem{30} R. C. Kessler et al., ``The World Health Organization Adult ADHD self-report Scale (ASRS): a Short Screening Scale for Use in the General Population,'' \textit{Psychological Medicine}, vol. 35, no. 2, pp. 245–256, Feb. 2005, doi: 10.1017/s0033291704002892.
+\bibitem[30]{30} R. C. Kessler et al. 2005. The World Health Organization Adult ADHD self-report Scale (ASRS): a Short Screening Scale for Use in the General Population. \textit{Psychological Medicine} 35, 2 (February 2005), 245--256. DOI:https://doi.org/10.1017/s0033291704002892
 
-\bibitem{31} J. B. Saunders et al., ``Development of the Alcohol Use Disorders Identification Test (AUDIT): WHO collaborative project on early detection of persons with harmful alcohol consumption--II,'' \textit{Addiction}, vol. 88, no. 6, pp. 791–804, Jun. 1993, doi: 10.1111/j.1360-0443.1993.tb02093.x.
+\bibitem[31]{31} J. B. Saunders et al. 1993. Development of the Alcohol Use Disorders Identification Test (AUDIT): WHO collaborative project on early detection of persons with harmful alcohol consumption--II. \textit{Addiction} 88, 6 (June 1993), 791--804. DOI:https://doi.org/10.1111/j.1360-0443.1993.tb02093.x
 
-\bibitem{32} H. A. Skinner, ``The drug abuse screening test,'' \textit{Addictive Behaviors}, vol. 7, no. 4, pp. 363–71, 1982, doi: 10.1016/0306-4603(82)90005-3.
+\bibitem[32]{32} H. A. Skinner. 1982. The drug abuse screening test. \textit{Addictive Behaviors} 7, 4 (1982), 363--371. DOI:https://doi.org/10.1016/0306-4603(82)90005-3
 
-\bibitem{33} B. M. Wootton et al., ``A contemporary psychometric evaluation of the Obsessive Compulsive Inventory-Revised (OCI-R),'' \textit{Psychological Assessment}, vol. 27, no. 3, pp. 874–882, Sep. 2015, doi: 10.1037/pas0000075.
+\bibitem[33]{33} B. M. Wootton et al. 2015. A contemporary psychometric evaluation of the Obsessive Compulsive Inventory-Revised (OCI-R). \textit{Psychological Assessment} 27, 3 (September 2015), 874--882. DOI:https://doi.org/10.1037/pas0000075
 
-\bibitem{34} R. P. Mattick and J. C. Clarke, ``Development and validation of measures of social phobia scrutiny fear and social interaction anxiety,'' \textit{Behaviour Research and Therapy}, vol. 36, no. 4, pp. 455–470, Apr. 1998, doi: 10.1016/s0005-7967(97)10031-6.
+\bibitem[34]{34} R. P. Mattick and J. C. Clarke. 1998. Development and validation of measures of social phobia scrutiny fear and social interaction anxiety. \textit{Behaviour Research and Therapy} 36, 4 (April 1998), 455--470. DOI:https://doi.org/10.1016/s0005-7967(97)10031-6
 
-\bibitem{35} C. Maslach, S. E. Jackson, and M. P. Leiter, ``The Maslach Burnout Inventory Manual,'' in \textit{Evaluating Stress: A Book of Resources}, vol. 3, 3rd ed. Palo Alto, CA, USA: Consulting Psychologists Press, 1997, pp. 191–218.
+\bibitem[35]{35} C. Maslach, S. E. Jackson, and M. P. Leiter. 1997. The Maslach Burnout Inventory Manual. In \textit{Evaluating Stress: A Book of Resources} (3rd ed.), Vol. 3. Consulting Psychologists Press, Palo Alto, CA, USA, 191--218.
 
-\bibitem{36} R. M. A. Hirschfeld et al., ``Development and Validation of a Screening Instrument for Bipolar Spectrum Disorder: The Mood Disorder Questionnaire,'' \textit{American Journal of Psychiatry}, vol. 157, no. 11, pp. 1873–1875, Nov. 2000, doi: 10.1176/appi.ajp.157.11.1873.
+\bibitem[36]{36} R. M. A. Hirschfeld et al. 2000. Development and Validation of a Screening Instrument for Bipolar Spectrum Disorder: The Mood Disorder Questionnaire. \textit{American Journal of Psychiatry} 157, 11 (November 2000), 1873--1875. DOI:https://doi.org/10.1176/appi.ajp.157.11.1873
 
-\bibitem{37} J. Gormally, S. Black, S. Daston, and D. Rardin, ``The assessment of binge eating severity among obese persons,'' \textit{Addictive Behaviors}, vol. 7, no. 1, pp. 47–55, Jan. 1982, doi: 10.1016/0306-4603(82)90024-7.
+\bibitem[37]{37} J. Gormally, S. Black, S. Daston, and D. Rardin. 1982. The assessment of binge eating severity among obese persons. \textit{Addictive Behaviors} 7, 1 (January 1982), 47--55. DOI:https://doi.org/10.1016/0306-4603(82)90024-7
 
 \end{thebibliography}
 
-\appendices
-
-\appendices
+\appendix
 
 \section{Sample Clinical Questionnaire Structures}
 This appendix provides structured JSON representations for the clinical instruments integrated into the AURIS framework. Each scale supports RAG-driven retrieval through semantic hooks and metadata-rich item definitions. To ensure compatibility with the IEEE two-column format, the code is rendered in a compact format.
@@ -585,10 +641,10 @@ This appendix provides structured JSON representations for the clinical instrume
 \begin{table}[htbp]
 \caption{Questionnaire Coverage Summary}
 \begin{center}
-\begin{tabular}{|l|l|c|l|}
-\hline
+\begin{tabular}{llcl}
+\toprule
 \textbf{Scale} & \textbf{Items Shown} & \textbf{Total Items} & \textbf{Domain} \\
-\hline
+\midrule
 PHQ-9 & 3/9 (Q1, Q2, Q9) & 9 & Depression \\
 GAD-7 & 3/7 (Q1, Q2, Q7) & 7 & Anxiety \\
 ASRS-v1.1 & 3/18 (Q1, Q2, Q3) & 18 & ADHD \\
@@ -603,7 +659,7 @@ OCI-R & 2/18 (Q2, Q11) & 18 & OCD \\
 PDSS & 2/7 (Q1, Q4) & 7 & Panic Disorder \\
 PSS & 2/10 (Q1, Q6) & 10 & Stress \\
 SIAS & 2/20 (Q1, Q5) & 20 & Social Anxiety \\
-\hline
+\bottomrule
 \end{tabular}
 \end{center}
 \end{table}
@@ -755,18 +811,18 @@ The evaluation suite ensures comprehensive coverage of system edge cases, rangin
 \begin{table}[htbp]
 \caption{Scenario Category Distribution}
 \begin{center}
-\begin{tabular}{|l|c|l|}
-\hline
+\begin{tabular}{lcl}
+\toprule
 \textbf{Category} & \textbf{Count} & \textbf{Phase Focus} \\
-\hline
+\midrule
 RAPPORT Phase & 3 & Greeting, Symptom Sharing \\
 SCREENING (Std) & 7 & Item Extraction, ADHD, Burnout \\
 SCREENING (Crisis) & 3 & Suicide, Self-Harm, Substance \\
 SNAPSHOT Phase & 2 & Completion, High Severity \\
 Special Cases & 2 & Stop Requests, Low Confidence \\
-\hline
+\midrule
 \textbf{Total} & \textbf{15} & \textbf{Full Screening Lifecycle} \\
-\hline
+\bottomrule
 \end{tabular}
 \label{tab:scenarios}
 \end{center}
@@ -792,15 +848,15 @@ AURIS is designed with a provider-agnostic architecture, supporting various stat
 \caption{Supported LLM Providers}
 \label{tab:llm_providers}
 \begin{center}
-\begin{tabular}{|l|l|l|}
-\hline
+\begin{tabular}{lll}
+\toprule
 \textbf{Provider} & \textbf{Model(s)} & \textbf{Configuration Key} \\
-\hline
+\midrule
 OpenAI & gpt-4o-mini, gpt-4o & \texttt{OPENAI\_API\_KEY} \\
 Anthropic & Claude 3.5 Sonnet & \texttt{ANTHROPIC\_API\_KEY} \\
 Google & Gemini 2.5/1.5 Flash & \texttt{GOOGLE\_API\_KEY} \\
 Hugging Face & LLaMA 4 Scout 17B & \texttt{HUGGINGFACE\_API\_KEY} \\
-\hline
+\bottomrule
 \end{tabular}
 \end{center}
 \end{table}
