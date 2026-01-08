@@ -1,0 +1,542 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{32}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[noa({[n.\,d.]}a)]%
+        {noauthor_llama_nodate}
+ \bibinfo{year}{[n.\,d.]}\natexlab{a}.
+\newblock \bibinfo{title}{The {Llama} 4 herd: {The} beginning of a new era of
+  natively multimodal {AI} innovation}.
+\newblock
+\urldef\tempurl%
+\url{https://ai.meta.com/blog/llama-4-multimodal-intelligence/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[noa({[n.\,d.]}b)]%
+        {noauthor_milo_nodate}
+ \bibinfo{year}{[n.\,d.]}\natexlab{b}.
+\newblock \bibinfo{title}{{MILO}: {An} {LLM} {Multi}-{Stage} {Conversational}
+  {Agent} for {Fostering} {Teenagers}’ {Mental} {Resilience} {\textbar}
+  {Adjunct} {Proceedings} of the 38th {Annual} {ACM} {Symposium} on {User}
+  {Interface} {Software} and {Technology}}.
+\newblock
+\href{https://doi.org/10.1145/3746058.3758411}{doi:\nolinkurl{10.1145/3746058.3758411}}
+\newblock
+\shownote{Archive Location: world}.
+
+
+\bibitem[noa(2025)]%
+        {noauthor_applications_2025}
+ \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{The {Applications} of {Large} {Language} {Models}
+  in {Mental} {Health}: {Scoping} {Review}}.
+\newblock \bibinfo{journal}{\emph{Journal of Medical Internet Research}}
+  \bibinfo{volume}{27} (\bibinfo{date}{Jan.} \bibinfo{year}{2025}).
+\newblock
+\showISSN{1438-8871}
+\href{https://doi.org/10.2196/69284}{doi:\nolinkurl{10.2196/69284}}
+
+
+\bibitem[Bastien(2001)]%
+        {bastien_validation_2001}
+\bibfield{author}{\bibinfo{person}{C Bastien}.}
+  \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Validation of the {Insomnia} {Severity} {Index} as
+  an outcome measure for insomnia research}.
+\newblock \bibinfo{journal}{\emph{Sleep Medicine}} \bibinfo{volume}{2},
+  \bibinfo{number}{4} (\bibinfo{date}{July} \bibinfo{year}{2001}),
+  \bibinfo{pages}{297--307}.
+\newblock
+\showISSN{13899457}
+\href{https://doi.org/10.1016/S1389-9457(00)00065-4}{doi:\nolinkurl{10.1016/S1389-9457(00)00065-4}}
+
+
+\bibitem[C.~Ncheke et~al\mbox{.}(2024)]%
+        {c_ncheke_efficacy_2024}
+\bibfield{author}{\bibinfo{person}{Dr.~Damian C.~Ncheke},
+  \bibinfo{person}{Dr.~Grace Ngozi~Omeje}, \bibinfo{person}{Dr.~Lilian
+  C.~Ozoemena}, \bibinfo{person}{Dr~Amaka~B. Ikechukwu-Ilomuanya},
+  \bibinfo{person}{Dr~Amanda~U. Ugwoezuonu}, \bibinfo{person}{Dr~Nkechi
+  T.~Egenti}, \bibinfo{person}{Chimezie O.~Odionye}, {and}
+  \bibinfo{person}{Dorothy C.~Ezeunara}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Efficacy of {Talk} {Therapy} on {Academic}
+  {Depression} {Behaviour} of {Students} {Enrolled} in {Counselling},
+  {Psychology} and {Sociology} of {Education} ({CPSE})}.
+\newblock \bibinfo{journal}{\emph{Kuey}} (\bibinfo{year}{2024}).
+\newblock
+\href{https://doi.org/10.53555/kuey.v30i10.8123}{doi:\nolinkurl{10.53555/kuey.v30i10.8123}}
+
+
+\bibitem[Cho et~al\mbox{.}(2024)]%
+        {cho_task-specific_2024}
+\bibfield{author}{\bibinfo{person}{Ha~Na Cho}, \bibinfo{person}{Tae~Joon Jun},
+  \bibinfo{person}{Young-Hak Kim}, \bibinfo{person}{Heejun Kang},
+  \bibinfo{person}{Imjin Ahn}, \bibinfo{person}{Hansle Gwon},
+  \bibinfo{person}{Yunha Kim}, \bibinfo{person}{Jiahn Seo},
+  \bibinfo{person}{Heejung Choi}, \bibinfo{person}{Minkyoung Kim},
+  \bibinfo{person}{Jiye Han}, \bibinfo{person}{Gaeun Kee},
+  \bibinfo{person}{Seohyun Park}, {and} \bibinfo{person}{Soyoung Ko}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Task-{Specific} {Transformer}-{Based} {Language}
+  {Models} in {Health} {Care}: {Scoping} {Review}}.
+\newblock \bibinfo{journal}{\emph{JMIR Medical Informatics}}
+  \bibinfo{volume}{12}, \bibinfo{number}{1} (\bibinfo{date}{Nov.}
+  \bibinfo{year}{2024}), \bibinfo{pages}{e49724}.
+\newblock
+\href{https://doi.org/10.2196/49724}{doi:\nolinkurl{10.2196/49724}}
+\newblock
+\shownote{Company: JMIR Medical Informatics Distributor: JMIR Medical
+  Informatics Institution: JMIR Medical Informatics Label: JMIR Medical
+  Informatics Publisher: JMIR Publications Inc., Toronto, Canada}.
+
+
+\bibitem[Cohen et~al\mbox{.}(1983)]%
+        {cohen_global_1983}
+\bibfield{author}{\bibinfo{person}{Sheldon Cohen}, \bibinfo{person}{Tom
+  Kamarck}, {and} \bibinfo{person}{Robin Mermelstein}.}
+  \bibinfo{year}{1983}\natexlab{}.
+\newblock \showarticletitle{A {Global} {Measure} of {Perceived} {Stress}}.
+\newblock \bibinfo{journal}{\emph{Journal of Health and Social Behavior}}
+  \bibinfo{volume}{24}, \bibinfo{number}{4} (\bibinfo{date}{Dec.}
+  \bibinfo{year}{1983}), \bibinfo{pages}{385}.
+\newblock
+\showISSN{00221465}
+\href{https://doi.org/10.2307/2136404}{doi:\nolinkurl{10.2307/2136404}}
+
+
+\bibitem[De~Duro et~al\mbox{.}(2025)]%
+        {de_duro_introducing_2025}
+\bibfield{author}{\bibinfo{person}{Edoardo~Sebastiano De~Duro},
+  \bibinfo{person}{Riccardo Improta}, {and} \bibinfo{person}{Massimo Stella}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Introducing {CounseLLMe}: {A} dataset of simulated
+  mental health dialogues for comparing {LLMs} like {Haiku}, {LLaMAntino} and
+  {ChatGPT} against humans}.
+\newblock \bibinfo{journal}{\emph{Emerging Trends in Drugs, Addictions, and
+  Health}}  \bibinfo{volume}{5} (\bibinfo{date}{Dec.} \bibinfo{year}{2025}),
+  \bibinfo{pages}{100170}.
+\newblock
+\showISSN{2667-1182}
+\href{https://doi.org/10.1016/j.etdah.2025.100170}{doi:\nolinkurl{10.1016/j.etdah.2025.100170}}
+
+
+\bibitem[Fernandes et~al\mbox{.}(2025)]%
+        {fernandes_flexidialogue_2025}
+\bibfield{author}{\bibinfo{person}{João Fernandes}, \bibinfo{person}{Ana
+  Antunes}, \bibinfo{person}{Joana Campos}, \bibinfo{person}{João Dias}, {and}
+  \bibinfo{person}{Pedro Santos}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{FlexiDialogue}: {Integrating} {Dialogue} {Trees}
+  for {Mental} {Health} with {Large} {Language} {Models}:}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 11th {International}
+  {Conference} on {Information} and {Communication} {Technologies} for {Ageing}
+  {Well} and e-{Health}}}. \bibinfo{publisher}{SCITEPRESS - Science and
+  Technology Publications}, \bibinfo{address}{Porto, Portugal},
+  \bibinfo{pages}{268--275}.
+\newblock
+\showISBNx{978-989-758-743-6}
+\href{https://doi.org/10.5220/0013286900003938}{doi:\nolinkurl{10.5220/0013286900003938}}
+
+
+\bibitem[Forkus et~al\mbox{.}(2023)]%
+        {forkus_posttraumatic_2023}
+\bibfield{author}{\bibinfo{person}{Shannon~R. Forkus},
+  \bibinfo{person}{Alexa~M. Raudales}, \bibinfo{person}{Hanan~S. Rafiuddin},
+  \bibinfo{person}{Nicole~H. Weiss}, \bibinfo{person}{Brett~A. Messman}, {and}
+  \bibinfo{person}{Ateka~A. Contractor}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{The {Posttraumatic} {Stress} {Disorder} ({PTSD})
+  {Checklist} for {DSM}–5: {A} systematic review of existing psychometric
+  evidence.}
+\newblock \bibinfo{journal}{\emph{Clinical Psychology: Science and Practice}}
+  \bibinfo{volume}{30}, \bibinfo{number}{1} (\bibinfo{date}{March}
+  \bibinfo{year}{2023}), \bibinfo{pages}{110--121}.
+\newblock
+\showISSN{1468-2850, 0969-5893}
+\href{https://doi.org/10.1037/cps0000111}{doi:\nolinkurl{10.1037/cps0000111}}
+
+
+\bibitem[Gormally et~al\mbox{.}(1982)]%
+        {gormally_assessment_1982}
+\bibfield{author}{\bibinfo{person}{Jim Gormally}, \bibinfo{person}{Sionag
+  Black}, \bibinfo{person}{Sandy Daston}, {and} \bibinfo{person}{David
+  Rardin}.} \bibinfo{year}{1982}\natexlab{}.
+\newblock \showarticletitle{The assessment of binge eating severity among obese
+  persons}.
+\newblock \bibinfo{journal}{\emph{Addictive Behaviors}} \bibinfo{volume}{7},
+  \bibinfo{number}{1} (\bibinfo{date}{Jan.} \bibinfo{year}{1982}),
+  \bibinfo{pages}{47--55}.
+\newblock
+\showISSN{03064603}
+\href{https://doi.org/10.1016/0306-4603(82)90024-7}{doi:\nolinkurl{10.1016/0306-4603(82)90024-7}}
+
+
+\bibitem[Guo et~al\mbox{.}(2025)]%
+        {guo_soullmate_2025}
+\bibfield{author}{\bibinfo{person}{Qiming Guo}, \bibinfo{person}{Jinwen Tang},
+  \bibinfo{person}{Wenbo Sun}, \bibinfo{person}{Haoteng Tang},
+  \bibinfo{person}{Yi Shang}, {and} \bibinfo{person}{Wenlu Wang}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{SouLLMate}: {An} {Adaptive} {LLM}-{Driven} {System}
+  for {Advanced} {Mental} {Health} {Support} and {Assessment}, {Based} on a
+  {Systematic} {Application} {Survey}}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2410.11859}{doi:\nolinkurl{10.48550/arXiv.2410.11859}}
+\newblock
+\shownote{arXiv:2410.11859 [cs]}.
+
+
+\bibitem[Hirschfeld et~al\mbox{.}(2000)]%
+        {hirschfeld_development_2000}
+\bibfield{author}{\bibinfo{person}{Robert~M.A. Hirschfeld},
+  \bibinfo{person}{Janet~B.W. Williams}, \bibinfo{person}{Robert~L. Spitzer},
+  \bibinfo{person}{Joseph~R. Calabrese}, \bibinfo{person}{Laurie Flynn},
+  \bibinfo{person}{Paul~E. Keck}, \bibinfo{person}{Lydia Lewis},
+  \bibinfo{person}{Susan~L. McElroy}, \bibinfo{person}{Robert~M. Post},
+  \bibinfo{person}{Daniel~J. Rapport}, \bibinfo{person}{James~M. Russell},
+  \bibinfo{person}{Gary~S. Sachs}, {and} \bibinfo{person}{John Zajecka}.}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Development and {Validation} of a {Screening}
+  {Instrument} for {Bipolar} {Spectrum} {Disorder}: {The} {Mood} {Disorder}
+  {Questionnaire}}.
+\newblock \bibinfo{journal}{\emph{AJP}} \bibinfo{volume}{157},
+  \bibinfo{number}{11} (\bibinfo{date}{Nov.} \bibinfo{year}{2000}),
+  \bibinfo{pages}{1873--1875}.
+\newblock
+\showISSN{0002-953X, 1535-7228}
+\href{https://doi.org/10.1176/appi.ajp.157.11.1873}{doi:\nolinkurl{10.1176/appi.ajp.157.11.1873}}
+
+
+\bibitem[Hua et~al\mbox{.}(2025)]%
+        {hua_large_2025}
+\bibfield{author}{\bibinfo{person}{Yining Hua}, \bibinfo{person}{Fenglin Liu},
+  \bibinfo{person}{Kailai Yang}, \bibinfo{person}{Zehan Li},
+  \bibinfo{person}{Hongbin Na}, \bibinfo{person}{Yi-han Sheu},
+  \bibinfo{person}{Peilin Zhou}, \bibinfo{person}{Lauren~V. Moran},
+  \bibinfo{person}{Sophia Ananiadou}, \bibinfo{person}{David~A. Clifton},
+  \bibinfo{person}{Andrew Beam}, {and} \bibinfo{person}{John Torous}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Large {Language} {Models} in {Mental} {Health}
+  {Care}: a {Scoping} {Review}}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2401.02984}{doi:\nolinkurl{10.48550/arXiv.2401.02984}}
+\newblock
+\shownote{arXiv:2401.02984 [cs]}.
+
+
+\bibitem[Kessler et~al\mbox{.}(2005)]%
+        {kessler_world_2005}
+\bibfield{author}{\bibinfo{person}{Ronald~C. Kessler}, \bibinfo{person}{Lenard
+  Adler}, \bibinfo{person}{Minnie Ames}, \bibinfo{person}{Olga Demler},
+  \bibinfo{person}{Steve Faraone}, \bibinfo{person}{Eva Hiripi},
+  \bibinfo{person}{Mary~J. Howes}, \bibinfo{person}{Robert Jin},
+  \bibinfo{person}{Kristina Secnik}, \bibinfo{person}{Thomas Spencer},
+  \bibinfo{person}{T.~Bedirhan Ustun}, {and} \bibinfo{person}{Ellen~E.
+  Walters}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{The {World} {Health} {Organization} adult {ADHD}
+  self-report scale ({ASRS}): a short screening scale for use in the general
+  population}.
+\newblock \bibinfo{journal}{\emph{Psychol. Med.}} \bibinfo{volume}{35},
+  \bibinfo{number}{2} (\bibinfo{date}{Feb.} \bibinfo{year}{2005}),
+  \bibinfo{pages}{245--256}.
+\newblock
+\showISSN{0033-2917, 1469-8978}
+\href{https://doi.org/10.1017/S0033291704002892}{doi:\nolinkurl{10.1017/S0033291704002892}}
+
+
+\bibitem[Kroenke et~al\mbox{.}(2001)]%
+        {kroenke_phq-9_2001}
+\bibfield{author}{\bibinfo{person}{Kurt Kroenke}, \bibinfo{person}{Robert~L.
+  Spitzer}, {and} \bibinfo{person}{Janet B.~W. Williams}.}
+  \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{The {PHQ}-9: {Validity} of a brief depression
+  severity measure}.
+\newblock \bibinfo{journal}{\emph{J Gen Intern Med}} \bibinfo{volume}{16},
+  \bibinfo{number}{9} (\bibinfo{date}{Sept.} \bibinfo{year}{2001}),
+  \bibinfo{pages}{606--613}.
+\newblock
+\showISSN{0884-8734, 1525-1497}
+\href{https://doi.org/10.1046/j.1525-1497.2001.016009606.x}{doi:\nolinkurl{10.1046/j.1525-1497.2001.016009606.x}}
+
+
+\bibitem[Lawrence et~al\mbox{.}(2024)]%
+        {lawrence_opportunities_2024}
+\bibfield{author}{\bibinfo{person}{Hannah~R. Lawrence},
+  \bibinfo{person}{Renee~A. Schneider}, \bibinfo{person}{Susan~B. Rubin},
+  \bibinfo{person}{Maja~J. Matarić}, \bibinfo{person}{Daniel~J. McDuff}, {and}
+  \bibinfo{person}{Megan~Jones Bell}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{The {Opportunities} and {Risks} of {Large}
+  {Language} {Models} in {Mental} {Health}}.
+\newblock \bibinfo{journal}{\emph{JMIR Mental Health}} \bibinfo{volume}{11},
+  \bibinfo{number}{1} (\bibinfo{date}{July} \bibinfo{year}{2024}),
+  \bibinfo{pages}{e59479}.
+\newblock
+\href{https://doi.org/10.2196/59479}{doi:\nolinkurl{10.2196/59479}}
+\newblock
+\shownote{Company: JMIR Mental Health Distributor: JMIR Mental Health
+  Institution: JMIR Mental Health Label: JMIR Mental Health Publisher: JMIR
+  Publications Inc., Toronto, Canada}.
+
+
+\bibitem[Levis et~al\mbox{.}(2019)]%
+        {levis_accuracy_2019}
+\bibfield{author}{\bibinfo{person}{Brooke Levis}, \bibinfo{person}{Andrea
+  Benedetti}, {and} \bibinfo{person}{Brett~D Thombs}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Accuracy of {Patient} {Health} {Questionnaire}-9
+  ({PHQ}-9) for screening to detect major depression: individual participant
+  data meta-analysis}.
+\newblock \bibinfo{journal}{\emph{BMJ}} (\bibinfo{date}{April}
+  \bibinfo{year}{2019}), \bibinfo{pages}{l1476}.
+\newblock
+\showISSN{0959-8138, 1756-1833}
+\href{https://doi.org/10.1136/bmj.l1476}{doi:\nolinkurl{10.1136/bmj.l1476}}
+
+
+\bibitem[Maslach et~al\mbox{.}(1997)]%
+        {maslach_maslach_1997}
+\bibfield{author}{\bibinfo{person}{Christina Maslach}, \bibinfo{person}{Susan
+  Jackson}, {and} \bibinfo{person}{Michael Leiter}.}
+  \bibinfo{year}{1997}\natexlab{}.
+\newblock \showarticletitle{The {Maslach} {Burnout} {Inventory} {Manual}}.
+\newblock In \bibinfo{booktitle}{\emph{Evaluating {Stress}: {A} {Book} of
+  {Resources}}}. Vol.~\bibinfo{volume}{3}. \bibinfo{pages}{191--218}.
+\newblock
+\newblock
+\shownote{Journal Abbreviation: Evaluating Stress: A Book of Resources}.
+
+
+\bibitem[Mattick and Clarke(1998)]%
+        {mattick_development_1998}
+\bibfield{author}{\bibinfo{person}{Richard~P. Mattick} {and}
+  \bibinfo{person}{J.Christopher Clarke}.} \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{Development and validation of measures of social
+  phobia scrutiny fear and social interaction {anxiety11Editor}’s note:
+  {This} article was written before the development of some contemporary
+  measures of social phobia, such as the {Social} {Phobia} and {Anxiety}
+  {Inventory} ({Turner} et al., 1989). {We} have invited this article for
+  publication because of the growing interest in the scales described therein.
+  {S}.{T}.}
+\newblock \bibinfo{journal}{\emph{Behaviour Research and Therapy}}
+  \bibinfo{volume}{36}, \bibinfo{number}{4} (\bibinfo{date}{April}
+  \bibinfo{year}{1998}), \bibinfo{pages}{455--470}.
+\newblock
+\showISSN{00057967}
+\href{https://doi.org/10.1016/S0005-7967(97)10031-6}{doi:\nolinkurl{10.1016/S0005-7967(97)10031-6}}
+
+
+\bibitem[Newson et~al\mbox{.}(2020)]%
+        {newson_heterogeneity_2020}
+\bibfield{author}{\bibinfo{person}{Jennifer~J. Newson}, \bibinfo{person}{Daniel
+  Hunter}, {and} \bibinfo{person}{Tara~C. Thiagarajan}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The {Heterogeneity} of {Mental} {Health}
+  {Assessment}}.
+\newblock \bibinfo{journal}{\emph{Front. Psychiatry}}  \bibinfo{volume}{11}
+  (\bibinfo{date}{Feb.} \bibinfo{year}{2020}).
+\newblock
+\showISSN{1664-0640}
+\href{https://doi.org/10.3389/fpsyt.2020.00076}{doi:\nolinkurl{10.3389/fpsyt.2020.00076}}
+\newblock
+\shownote{Publisher: Frontiers}.
+
+
+\bibitem[Reimers and Gurevych(2019)]%
+        {reimers_sentence-bert_2019}
+\bibfield{author}{\bibinfo{person}{Nils Reimers} {and} \bibinfo{person}{Iryna
+  Gurevych}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Sentence-{BERT}: {Sentence} {Embeddings} using
+  {Siamese} {BERT}-{Networks}}.
+\newblock
+\href{https://doi.org/10.48550/ARXIV.1908.10084}{doi:\nolinkurl{10.48550/ARXIV.1908.10084}}
+\newblock
+\shownote{Version Number: 1}.
+
+
+\bibitem[Rosteck et~al\mbox{.}(2025)]%
+        {rosteck_bridging_2025}
+\bibfield{author}{\bibinfo{person}{Niclas Rosteck}, \bibinfo{person}{Julian
+  Striegl}, {and} \bibinfo{person}{Claudia Loitsch}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Bridging the {Treatment} {Gap}: {A} {Novel}
+  {LLM}-{Driven} {System} for {Scalable} {Initial} {Patient} {Assessments} in
+  {Mental} {Healthcare}}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  {Extended} {Abstracts} of the {CHI} {Conference} on {Human} {Factors} in
+  {Computing} {Systems}}}. \bibinfo{publisher}{ACM}, \bibinfo{address}{Yokohama
+  Japan}, \bibinfo{pages}{1--8}.
+\newblock
+\showISBNx{979-8-4007-1395-8}
+\href{https://doi.org/10.1145/3706599.3720043}{doi:\nolinkurl{10.1145/3706599.3720043}}
+
+
+\bibitem[Saunders et~al\mbox{.}(1993)]%
+        {saunders_development_1993}
+\bibfield{author}{\bibinfo{person}{John~B Saunders}, \bibinfo{person}{Olaf~G.
+  Aasland}, \bibinfo{person}{Thomas~F. Babor}, \bibinfo{person}{Juan~R.
+  De~La~Fuente}, {and} \bibinfo{person}{Marcus Grant}.}
+  \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{Development of the {Alcohol} {Use} {Disorders}
+  {Identification} {Test} ({AUDIT}): {WHO} {Collaborative} {Project} on {Early}
+  {Detection} of {Persons} with {Harmful} {Alcohol} {Consumption}‐{II}}.
+\newblock \bibinfo{journal}{\emph{Addiction}} \bibinfo{volume}{88},
+  \bibinfo{number}{6} (\bibinfo{date}{June} \bibinfo{year}{1993}),
+  \bibinfo{pages}{791--804}.
+\newblock
+\showISSN{0965-2140, 1360-0443}
+\href{https://doi.org/10.1111/j.1360-0443.1993.tb02093.x}{doi:\nolinkurl{10.1111/j.1360-0443.1993.tb02093.x}}
+
+
+\bibitem[Sherwani et~al\mbox{.}(2025)]%
+        {sherwani_eshro_2025}
+\bibfield{author}{\bibinfo{person}{Sahar Sherwani}, \bibinfo{person}{{Zarak
+  Khan}}, \bibinfo{person}{Jim Samuel}, \bibinfo{person}{Rajiv Kashyap}, {and}
+  \bibinfo{person}{{Kushal Patel}}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{ESHRO}: {An} {Innovative} {Evaluation} {Framework}
+  for {AI}-{Driven} {Mental} {Health} {Chatbots}}.
+\newblock  (\bibinfo{year}{2025}).
+\newblock
+\href{https://doi.org/10.13140/RG.2.2.10861.50401}{doi:\nolinkurl{10.13140/RG.2.2.10861.50401}}
+\newblock
+\shownote{Publisher: Unpublished}.
+
+
+\bibitem[Singh et~al\mbox{.}(2022)]%
+        {singh_mental_2022}
+\bibfield{author}{\bibinfo{person}{Vijender Singh}, \bibinfo{person}{Akash
+  Kumar}, {and} \bibinfo{person}{Snehil Gupta}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Mental {Health} {Prevention} and {Promotion}—{A}
+  {Narrative} {Review}}.
+\newblock \bibinfo{journal}{\emph{Front. Psychiatry}}  \bibinfo{volume}{13}
+  (\bibinfo{date}{July} \bibinfo{year}{2022}).
+\newblock
+\showISSN{1664-0640}
+\href{https://doi.org/10.3389/fpsyt.2022.898009}{doi:\nolinkurl{10.3389/fpsyt.2022.898009}}
+\newblock
+\shownote{Publisher: Frontiers}.
+
+
+\bibitem[Skinner(1982)]%
+        {skinner_drug_1982}
+\bibfield{author}{\bibinfo{person}{Harvey~A. Skinner}.}
+  \bibinfo{year}{1982}\natexlab{}.
+\newblock \showarticletitle{The drug abuse screening test}.
+\newblock \bibinfo{journal}{\emph{Addictive Behaviors}} \bibinfo{volume}{7},
+  \bibinfo{number}{4} (\bibinfo{date}{Jan.} \bibinfo{year}{1982}),
+  \bibinfo{pages}{363--371}.
+\newblock
+\showISSN{03064603}
+\href{https://doi.org/10.1016/0306-4603(82)90005-3}{doi:\nolinkurl{10.1016/0306-4603(82)90005-3}}
+
+
+\bibitem[Spitzer et~al\mbox{.}(2006)]%
+        {spitzer_brief_2006}
+\bibfield{author}{\bibinfo{person}{Robert~L. Spitzer}, \bibinfo{person}{Kurt
+  Kroenke}, \bibinfo{person}{Janet B.~W. Williams}, {and}
+  \bibinfo{person}{Bernd Löwe}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{A {Brief} {Measure} for {Assessing} {Generalized}
+  {Anxiety} {Disorder}: {The} {GAD}-7}.
+\newblock \bibinfo{journal}{\emph{Arch Intern Med}} \bibinfo{volume}{166},
+  \bibinfo{number}{10} (\bibinfo{date}{May} \bibinfo{year}{2006}),
+  \bibinfo{pages}{1092}.
+\newblock
+\showISSN{0003-9926}
+\href{https://doi.org/10.1001/archinte.166.10.1092}{doi:\nolinkurl{10.1001/archinte.166.10.1092}}
+
+
+\bibitem[Wootton et~al\mbox{.}(2015)]%
+        {wootton_contemporary_2015}
+\bibfield{author}{\bibinfo{person}{Bethany~M. Wootton},
+  \bibinfo{person}{Gretchen~J. Diefenbach}, \bibinfo{person}{Laura~B. Bragdon},
+  \bibinfo{person}{Gail Steketee}, \bibinfo{person}{Randy~O. Frost}, {and}
+  \bibinfo{person}{David~F. Tolin}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{A contemporary psychometric evaluation of the
+  {Obsessive} {Compulsive} {Inventory}—{Revised} ({OCI}-{R}).}
+\newblock \bibinfo{journal}{\emph{Psychological Assessment}}
+  \bibinfo{volume}{27}, \bibinfo{number}{3} (\bibinfo{date}{Sept.}
+  \bibinfo{year}{2015}), \bibinfo{pages}{874--882}.
+\newblock
+\showISSN{1939-134X, 1040-3590}
+\href{https://doi.org/10.1037/pas0000075}{doi:\nolinkurl{10.1037/pas0000075}}
+
+
+\bibitem[Wren-Lewis and Alexandrova(2021)]%
+        {wren-lewis_mental_2021}
+\bibfield{author}{\bibinfo{person}{Sam Wren-Lewis} {and} \bibinfo{person}{Anna
+  Alexandrova}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Mental {Health} {Without} {Well}-being}.
+\newblock \bibinfo{journal}{\emph{J Med Philos}} \bibinfo{volume}{46},
+  \bibinfo{number}{6} (\bibinfo{date}{Dec.} \bibinfo{year}{2021}),
+  \bibinfo{pages}{684--703}.
+\newblock
+\showISSN{0360-5310}
+\href{https://doi.org/10.1093/jmp/jhab032}{doi:\nolinkurl{10.1093/jmp/jhab032}}
+
+
+\bibitem[Zhao et~al\mbox{.}(2025)]%
+        {zhao_research_2025}
+\bibfield{author}{\bibinfo{person}{Ruiying Zhao}, \bibinfo{person}{Yagmur
+  Amanvermez}, \bibinfo{person}{Julia Pei}, \bibinfo{person}{Franchesca
+  Castro‐Ramirez}, \bibinfo{person}{Charlene Rapsey},
+  \bibinfo{person}{Claudia Garcia}, \bibinfo{person}{David~D. Ebert},
+  \bibinfo{person}{Josep~Maria Haro}, \bibinfo{person}{Liviu~A. Fodor},
+  \bibinfo{person}{Oana~A. David}, \bibinfo{person}{Osiris Rankin},
+  \bibinfo{person}{Sook~Ning Chua}, \bibinfo{person}{Vania Martínez},
+  \bibinfo{person}{Ronny Bruffaerts}, \bibinfo{person}{Ronald~C. Kessler},
+  {and} \bibinfo{person}{Pim Cuijpers}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Research {Review}: {Help}‐seeking intentions,
+  behaviors, and barriers in college students – a systematic review and
+  meta‐analysis}.
+\newblock \bibinfo{journal}{\emph{J Child Psychol Psychiatry}}
+  \bibinfo{volume}{66}, \bibinfo{number}{10} (\bibinfo{date}{Oct.}
+  \bibinfo{year}{2025}), \bibinfo{pages}{1593--1605}.
+\newblock
+\showISSN{0021-9630}
+\href{https://doi.org/10.1111/jcpp.14145}{doi:\nolinkurl{10.1111/jcpp.14145}}
+
+
+\bibitem[Zhao et~al\mbox{.}(2024)]%
+        {zhao_tuning_2024}
+\bibfield{author}{\bibinfo{person}{Xiujie Zhao}, \bibinfo{person}{Yu Gao},
+  {and} \bibinfo{person}{Yimeng Zhang}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Tuning {LLaMA} {Model} with {Mental} {Disorders}
+  {Knowledge}}.
+\newblock
+\href{https://doi.org/10.21203/rs.3.rs-4250151/v1}{doi:\nolinkurl{10.21203/rs.3.rs-4250151/v1}}
+
+
+\end{thebibliography}
