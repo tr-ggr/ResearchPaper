@@ -1,13 +1,9 @@
-\documentclass[manuscript,screen]{acmart}
+\documentclass[acmsmall,screen]{acmart}
 
 % Suppress ACM reference and copyright for submission
 \settopmatter{printacmref=false}
 \setcopyright{none}
 \renewcommand{\footnotetextcopyrightpermission}[1]{}
-
-% Remove all headers and footers
-\pagestyle{empty}
-\AtBeginDocument{\thispagestyle{empty}}
 
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
@@ -16,6 +12,32 @@
 \usepackage{xcolor}
 \usepackage{booktabs}
 \usepackage{listings}
+\usepackage{setspace}
+
+% Fix manuscript mode's wide margins and force single-sided layout
+\usepackage[margin=1in,twoside=false]{geometry}
+
+% Set line spacing to 1.08 for readability
+\setstretch{1.08}
+
+% Override ACM page styles with centered page numbers
+\usepackage{etoolbox}
+\AtBeginDocument{%
+  \fancypagestyle{standardpagestyle}{%
+    \fancyhf{}%
+    \fancyfoot[C]{\thepage}%
+    \renewcommand{\headrulewidth}{0pt}%
+    \renewcommand{\footrulewidth}{0pt}%
+  }%
+  \fancypagestyle{firstpagestyle}{%
+    \fancyhf{}%
+    \fancyfoot[C]{\thepage}%
+    \renewcommand{\headrulewidth}{0pt}%
+    \renewcommand{\footrulewidth}{0pt}%
+  }%
+  \pagestyle{standardpagestyle}%
+  \thispagestyle{firstpagestyle}%
+}
 
 \lstset{
     basicstyle=\ttfamily\tiny, % Small font to prevent overflow
@@ -94,8 +116,7 @@
 \ccsdesc[300]{Applied computing~Health informatics}
 
 \begin{abstract}
-The global mental health treatment gap, driven by stigma and resource shortages, has necessitated the development of scalable, accessible screening tools. This study introduces AURIS, a retrieval-augmented, safety-aware conversational agent designed for structured clinical mental health assessment. Leveraging the LLaMA 4 Scout mixture-of-experts (MoE) architecture and a Retrieval-Augmented Generation (RAG) pipeline, AURIS integrates 14 validated clinical instruments comprising 178 assessment items. The system follows a three-phase interaction model—Rapport, Screening, and Snapshot—to maintain contextual coherence while facilitating clinical precision.
-System performance was evaluated using the ESHRO hybrid framework, which combines automated linguistic metrics with expert human review. Results indicate a final composite score of 0.76, with a notable excellence in Safety (1.00) and Empathy (0.88) according to human evaluators. However, a significant divergence was observed between automated relevance scores (0.53) and human judgment, suggesting that standard NLP metrics like cosine similarity are insufficient for capturing clinical nuances such as therapeutic alliance. The findings demonstrate that while AURIS is not a replacement for traditional therapy, it serves as a robust prototype for preventive psychiatry, providing a safe and empathetic first point of contact for underserved populations. Future research will focus on domain-specific fine-tuning and the development of clinically aligned automated evaluation metrics.
+AURIS targets the mental health treatment gap with a retrieval-augmented, safety-aware conversational assessor. Built on the LLaMA 4 Scout mixture-of-experts model and a RAG pipeline, it adapts 14 validated questionnaires (178 items) across three phases: Rapport, Screening, and Snapshot. Using the ESHRO hybrid evaluation (automated metrics plus expert review), AURIS achieved a 0.76 composite score; human raters scored Safety at 1.00 and Empathy at 0.88, while automated relevance lagged at 0.53, highlighting that standard similarity metrics miss clinical alignment. The system is a preventive psychiatry prototype—an empathetic, low-friction first touchpoint rather than a therapy replacement. Future work includes domain-specific fine-tuning and clinically grounded automated metrics.
 \end{abstract}
 
 \keywords{Large Language Models (LLMs), LLaMA 4 Scout, Retrieval-Augmented Generation (RAG), Mental Health Screening, ESHRO Framework, Preventive Psychiatry, Conversational Agents, Clinical Assessment}
