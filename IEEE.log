@@ -1,28 +1,40 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.8)  9 JAN 2026 01:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.8)  9 JAN 2026 01:34
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**e:/Documents/Code/ResearchPaper/IEEE.tex
-(e:/Documents/Code/ResearchPaper/IEEE.tex
+**./IEEE.tex
+(IEEE.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/acmart\acmart.cls
-Document Class: acmart 2025/08/27 v2.16 Typesetting articles for the Association for Computing Machinery
+Document Class: acmart 2025/08/27 v2.16 Typesetting articles for the Associatio
+n for Computing Machinery
+
 (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.t
+ex
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.
+tex
 \XKV@toks=\toks17
 \XKV@tempa@toks=\toks18
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.tex))
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.te
+x))
 \XKV@depth=\count275
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+))
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.t
+ex
 \xs_counta=\count276
 \xs_countb=\count277
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 Package acmart Info: Not using screen mode on input line 77.
@@ -38,26 +50,30 @@ Package acmart Info: Not using authordraft mode on input line 164.
 Package acmart Info: Using screen mode on input line 179.
 Class acmart Info: Using format acmsmall, number 1 on input line 179.
 Class acmart Info: Using fontsize 10pt on input line 281.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsart.cls
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsart.cls
 Document Class: amsart 2020/05/29 v2.20.6
 \linespacing=\dimen148
 \normalparindent=\dimen149
 \normaltopskip=\skip49
+
 (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip50
-
 For additional information on amsmath, use the `?' option.
+
 (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen150
-)) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+))
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen151
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.st
+y
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count278
@@ -108,10 +124,13 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 397.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 397
+.
  (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.s
+ty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -144,9 +163,13 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 \dth@everypar=\toks29
 )
 LaTeX Info: Redefining \markboth on input line 283.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype
+.sty
 Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.s
+ty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count298
 )
@@ -162,18 +185,25 @@ LaTeX Info: Redefining \textls on input line 1449.
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count300
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype
+-pdftex.def
 File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
+
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip59
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype
+.cfg
 File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.s
+ty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen161
 \lightrulewidth=\dimen162
@@ -192,71 +222,111 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count303
 \@lastruleclass=\count304
 \@thisrulewidth=\dimen173
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.s
+ty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.s
+ty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infware
+rr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/totpages\totpages.sty
+))
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/totpages\totpages.s
+ty
 Package: totpages 2005/09/19 v2.00 Totpages Package (muewi)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/everyshi\everyshi.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/everyshi\everyshi.s
+ty
 Package: everyshi 2020/11/18 v4.00 EveryShipout Package
-)) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+))
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspac
+es.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 \@ACM@acmcp@delta=\dimen174
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip60
 \bibsep=\skip61
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count305
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.s
+ty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys
+.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvde
+finekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfesca
+pe.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftex
+cmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+))
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.st
+y
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\ge
+ttitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions
+.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count306
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringe
+nc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
 )
 \@linkdim=\dimen175
 \Hy@linkcounter=\count307
 \Hy@pagecounter=\count308
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.s
+ty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count309
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4066.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4066
+.
 Package hyperref Info: Option `unicode' set `true' on input line 4066.
 Package hyperref Info: Hyper figures OFF on input line 4195.
 Package hyperref Info: Link nesting OFF on input line 4200.
@@ -266,16 +336,20 @@ Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count310
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen176
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigint
+calc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count311
 \Field@Width=\dimen177
@@ -292,53 +366,81 @@ Package hyperref Info: PDF/A mode OFF on input line 6108.
 \c@Hfootnote=\count314
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.de
+f
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count315
 \c@bookmark@seq@number=\count316
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\reru
+nfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uni
+quecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
 )
 \Hy@SectionHShift=\skip62
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hyperxmp\hyperxmp.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/hyperxmp\hyperxmp.s
+ty
 Package: hyperxmp 2024/03/17 v5.13 Store hyperref metadata in XMP format
 \hyxmp@aep@toks=\toks32
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/ifmtarg\ifmtarg.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/ifmtarg\ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 ) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \@hyxmp@count=\count317
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\ifdraft.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\ifdraft.st
+y
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.st
+y
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+))
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.s
+ty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.s
+ty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphi
+cs.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex
+.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen179
 \Gin@req@width=\dimen180
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.
+cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.
+ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -348,9 +450,12 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.s
+ty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count318
@@ -365,9 +470,15 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen187
 \Gm@layoutvoffset=\dimen188
 \Gm@dimlist=\toks33
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\manyfoot.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.c
+fg))
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\manyfoot.s
+ty
 Package: manyfoot 2019/08/03 v1.11 Many Footnote Levels Package (NCC)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\nccfoots.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\nccfoots.s
+ty
 Package: nccfoots 2005/02/03 v1.2 NCC Footnotes Package (NCC)
 )
 \MFL@columnwidth=\dimen189
@@ -376,35 +487,57 @@ Package: nccfoots 2005/02/03 v1.2 NCC Footnotes Package (NCC)
 \c@footnoteauthorsaddresses=\count321
 \footinscopyrightpermission=\insert250
 \c@footnotecopyrightpermission=\count322
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/cmap\cmap.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtouni
+code.tex)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/cmap\cmap.sty
 Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-<<t1.cmap>>) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\libertine.sty
-Package: libertine 2024/04/23 (Bob Tennent) Supports Libertine and Biolinum fonts for all LaTeX engines.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+<<t1.cmap>>)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\libertine
+.sty
+Package: libertine 2024/04/23 (Bob Tennent) Supports Libertine and Biolinum fon
+ts for all LaTeX engines.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 ) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 ) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.s
+ty
 Package: fontaxes 2025-05-24 v2.0.1 Font selection axes (deprecated)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/figureversions\figureversions.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/figureversions\figu
+reversions.sty
 Package: figureversions 2025-04-29 v1.0.1 Figure versions
 ))
 LaTeX Info: Redefining \oldstylenums on input line 485.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\LinLibertine_I.tex)) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\zi4.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\LinLibert
+ine_I.tex))
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\zi4.sty
 Package: zi4 2019/05/17 v1.12
- `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
 \zifour@ocount=\count323
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\newtxmath.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\newtxmath.sty
 Package: newtxmath 2024/09/22 v1.754
- `newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\centernot.sty
+
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\centernot.
+sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
 \tx@cntz=\count324
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/binhex\binhex.tex)
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/binhex\binhex.tex
+)
 \tx@Isdigit=\count325
 \tx@IsAlNum=\count326
 \tx@tA=\toks34
@@ -414,23 +547,31 @@ Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 amsthm NOT loaded
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 402.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/LinuxLibertineT-TLF/m/n on input line 402.
+(Font)                  OT1/cmr/m/n --> OT1/LinuxLibertineT-TLF/m/n on input li
+ne 402.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/m/n on input line 402.
+(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/m/n on input l
+ine 402.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/LinuxLibertineT-TLF/m/n --> OT1/LinuxLibertineT-TLF/sb/n on input line 403.
+(Font)                  OT1/LinuxLibertineT-TLF/m/n --> OT1/LinuxLibertineT-TLF
+/sb/n on input line 403.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 410.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/LinuxBiolinumT-TLF/m/n on input line 410.
+(Font)                  OT1/cmss/m/n --> OT1/LinuxBiolinumT-TLF/m/n on input li
+ne 410.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/LinuxBiolinumT-TLF/m/n on input line 410.
+(Font)                  OT1/cmss/bx/n --> OT1/LinuxBiolinumT-TLF/m/n on input l
+ine 410.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/LinuxBiolinumT-TLF/m/n --> OT1/LinuxBiolinumT-TLF/b/n on input line 412.
+(Font)                  OT1/LinuxBiolinumT-TLF/m/n --> OT1/LinuxBiolinumT-TLF/b
+/n on input line 412.
 LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 419.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/LinuxLibertineT-TLF/m/it on input line 419.
+(Font)                  OT1/cmr/m/it --> OT1/LinuxLibertineT-TLF/m/it on input 
+line 419.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/LinuxLibertineT-TLF/m/it on input line 419.
+(Font)                  OT1/cmr/bx/it --> OT1/LinuxLibertineT-TLF/m/it on input
+ line 419.
 LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 420.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> T1/zi4/m/n on input line 420.
@@ -438,11 +579,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> T1/zi4/m/n on input line 420.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 422.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/sb/n on input line 422.
+(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/sb/n on input 
+line 422.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/sb/n on input line 422.
+(Font)                  OT1/cmr/bx/n --> OT1/LinuxLibertineT-TLF/sb/n on input 
+line 422.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/LinuxLibertineT-TLF/m/it --> OT1/LinuxLibertineT-TLF/sb/it on input line 423.
+(Font)                  OT1/LinuxLibertineT-TLF/m/it --> OT1/LinuxLibertineT-TL
+F/sb/it on input line 423.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  T1/zi4/m/n --> T1/zi4/b/n on input line 426.
 LaTeX Font Info:    Redeclaring symbol font `letters' on input line 444.
@@ -479,17 +623,20 @@ Now handling font encoding LMX ...
 ... no UTF-8 mapping file for font encoding LMX
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 664.
 LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 664.
+(Font)              `largesymbols' in the math version `normal' on input line 6
+64.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
 LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 664.
+(Font)              `largesymbols' in the math version `bold' on input line 664
+.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 665.
 \symlargesymbolsTXA=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+
 (Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 679.
 \tx@sbptoks=\toks36
 LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 902.
@@ -509,9 +656,12 @@ LaTeX Info: Redefining \Bbbk on input line 2847.
 LaTeX Info: Redefining \not on input line 2995.
 LaTeX Info: Redefining \textsquare on input line 3025.
 LaTeX Info: Redefining \openbox on input line 3027.
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.st
+y
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen190
 \captionmargin=\dimen191
@@ -522,13 +672,17 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@parindent=\dimen196
 \caption@hangindent=\dimen197
 Package caption Info: AMS or SMF document class detected.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-ams-smf.sto
-File: caption-ams-smf.sto 2020/08/22 v2.0 Adaption of the caption package to the AMS and SMF document classes (AR)
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-ams
+-smf.sto
+File: caption-ams-smf.sto 2020/08/22 v2.0 Adaption of the caption package to th
+e AMS and SMF document classes (AR)
 ))
 \c@caption@flags=\count327
 \c@continuedfloat=\count328
 Package caption Info: hyperref package is loaded.
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count329
 \float@exts=\toks37
@@ -550,9 +704,10 @@ Class acmart Info: Printing CCS on input line 1848.
 Class acmart Info: Printing bibformat on input line 1848.
 Class acmart Info: Printing folios on input line 1853.
 Class acmart Info: Setting authorsperrow to 0 on input line 1858.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
 \CommentStream=\write3
- Excluding comment 'comment') Excluding comment 'CCSXML'
+Excluding comment 'comment') Excluding comment 'CCSXML'
 \c@@concepts=\count333
 \mktitle@bx=\box59
 \@ACM@acmcpbox=\box60
@@ -560,8 +715,11 @@ Class acmart Info: Setting authorsperrow to 0 on input line 1858.
 \author@bx=\box62
 \author@bx@wd=\dimen256
 \author@bx@sep=\skip67
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.s
+ty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
 \f@nch@headwidth=\skip68
 \f@nch@offset@elh=\skip69
 \f@nch@offset@erh=\skip70
@@ -578,15 +736,21 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthR=\skip81
 \@temptokenb=\toks40
 ) Special comment 'acks'
-LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-TLF on input line 3652.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxlibertinet-tlf.fd
-File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxLibertineT-TLF.
+LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-TLF 
+on input line 3652.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxli
+bertinet-tlf.fd
+File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Li
+nuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 3652.
 )
 Class acmart Info: Suppressing bibformat on input line 4.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.st
+y
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
 LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 45.
@@ -595,20 +759,26 @@ LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
 LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 49.
 LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 51.
 LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 52.
+
 LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56
+.
 LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 57.
 LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 58.
 LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 59.
 LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 61
+.
 LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 62.
+
 LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
 LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
+
 LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 65.
 LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 66.
 LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 67.
 LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 69.
+
 LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 70.
 LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 71.
 LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 72.
@@ -617,7 +787,8 @@ LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 74.
 LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 75.
 LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 76.
 LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+79.
 LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 80.
 LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 81.
 LaTeX Font Info:    Redeclaring math symbol \circeq on input line 82.
@@ -649,9 +820,12 @@ LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
 LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 109.
 LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 117.
 LaTeX Font Info:    Redeclaring math symbol \between on input line 118.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 119.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 121.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 11
+9.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+20.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
+1.
 LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 122.
 LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 123.
 LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 124.
@@ -678,6 +852,7 @@ LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 148.
 LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 149.
 LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 150.
 LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 151.
+
 LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 152.
 LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 153.
 LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 154.
@@ -746,8 +921,10 @@ LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 219.
 LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 220.
 LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
 LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 222.
-LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 223.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 223
+.
 LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 224.
+
 LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 225.
 LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 226.
 LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 227.
@@ -755,7 +932,9 @@ LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 228.
 LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 229.
 LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 230.
 LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 231.
+
 LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 232.
+
 LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 233.
 LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 234.
 LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
@@ -780,11 +959,12 @@ LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 255.
 LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 256.
 LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
 LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
+
 LaTeX Font Info:    Redeclaring math symbol \digamma on input line 259.
 LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
 
 
-C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty:261: LaTeX Error: Command `\Bbbk' already defined.
+! LaTeX Error: Command `\Bbbk' already defined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -798,7 +978,9 @@ or  <return>  to continue without it.
 
 LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
 LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmic.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorith
+mic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count334
 \c@ALC@line=\count335
@@ -806,7 +988,9 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@depth=\count337
 \ALC@tlm=\skip82
 \algorithmicindent=\skip83
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.s
+ty
 \lst@mode=\count338
 \lst@gtempboxa=\box63
 \lst@token=\toks41
@@ -819,14 +1003,20 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \lst@newlines=\count342
 \lst@lineno=\count343
 \lst@maxwidth=\dimen260
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.s
+ty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.st
+y
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count344
 \lst@skipnumbers=\count345
 \lst@framebox=\box64
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.c
+fg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
 Package: listings 2025/11/14 1.11b (Carsten Heinz)
@@ -837,17 +1027,26 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     but found:
         2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip84
+\fb@frw=\dimen261
+\fb@frh=\dimen262
+\FrameRule=\dimen263
+\FrameSep=\dimen264
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.s
+ty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
 
-e:/Documents/Code/ResearchPaper/IEEE.tex:19: LaTeX Error: Option clash for package geometry.
+! LaTeX Error: Option clash for package geometry.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 
+l.20 
      
 The package geometry has already been loaded with options:
   []
@@ -858,142 +1057,167 @@ Adding the global options:
 to your \documentclass declaration may fix this.
 Try typing  <return>  to proceed.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 54.
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 54.
+Package hyperref Info: Option `colorlinks' set `true' on input line 55.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 55.
+
 \c@theorem=\count346
-Include comment 'screenonly' Excluding comment 'printonly' Include comment 'anonsuppress' (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+Include comment 'screenonly' Excluding comment 'printonly'
+Include comment 'anonsuppress'
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
+-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count347
-)
-No file IEEE.aux.
+) (IEEE.aux)
 \openout1 = `IEEE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 54.
-LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line 54.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 55.
+LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line
+ 55.
+
 (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 54.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 54.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 55.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
+55.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 54.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 54.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 55.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
+ 55.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 54.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 54.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 55.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
+e 55.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    ... okay on input line 55.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 54.
-LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF on input line 54.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ot1linuxlibertinet-tlf.fd
-File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/LinuxLibertineT-TLF.
+(Font)              scaled to size 8.0pt on input line 55.
+LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF
+ on input line 55.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ot1linuxl
+ibertinet-tlf.fd
+File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
+LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 54.
+(Font)              scaled to size 8.0pt on input line 55.
 <<ot1.cmap>>
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 54.
+(Font)              scaled to size 6.0pt on input line 55.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 54.
+(Font)              scaled to size 5.5pt on input line 55.
 LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 8.0pt on input line 54.
+(Font)              scaled to size 8.0pt on input line 55.
 <<oml.cmap>>
 LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 6.0pt on input line 54.
+(Font)              scaled to size 6.0pt on input line 55.
 LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 5.5pt on input line 54.
+(Font)              scaled to size 5.5pt on input line 55.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.0pt on input line 54.
+(Font)              scaled to size 8.0pt on input line 55.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.0pt on input line 54.
+(Font)              scaled to size 6.0pt on input line 55.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 5.5pt on input line 54.
+(Font)              scaled to size 5.5pt on input line 55.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.0pt on input line 54.
+(Font)              scaled to size 8.0pt on input line 55.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.0pt on input line 54.
+(Font)              scaled to size 6.0pt on input line 55.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 5.5pt on input line 54.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(Font)              scaled to size 5.5pt on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 54.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+55.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.0pt on input line 54.
+(Font)              scaled to size 8.0pt on input line 55.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.0pt on input line 54.
+(Font)              scaled to size 6.0pt on input line 55.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 5.5pt on input line 54.
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 54.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
+(Font)              scaled to size 5.5pt on input line 55.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
+55.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.0pt on input line 54.
+(Font)              scaled to size 8.0pt on input line 55.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.0pt on input line 54.
+(Font)              scaled to size 6.0pt on input line 55.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 5.5pt on input line 54.
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 54.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
+(Font)              scaled to size 5.5pt on input line 55.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
+55.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.0pt on input line 54.
+(Font)              scaled to size 8.0pt on input line 55.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.0pt on input line 54.
+(Font)              scaled to size 6.0pt on input line 55.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 5.5pt on input line 54.
+(Font)              scaled to size 5.5pt on input line 55.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.0pt on input line 54.
+(Font)              scaled to size 8.0pt on input line 55.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.0pt on input line 54.
+(Font)              scaled to size 6.0pt on input line 55.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 5.5pt on input line 54.
-LaTeX Info: Command `\dddot' is already robust on input line 54.
-LaTeX Info: Command `\ddddot' is already robust on input line 54.
-LaTeX Info: Redefining \microtypecontext on input line 54.
-Package microtype Info: Applying patch `item' on input line 54.
-Package microtype Info: Applying patch `toc' on input line 54.
-Package microtype Info: Applying patch `eqnum' on input line 54.
+(Font)              scaled to size 5.5pt on input line 55.
+LaTeX Info: Command `\dddot' is already robust on input line 55.
+LaTeX Info: Command `\ddddot' is already robust on input line 55.
+LaTeX Info: Redefining \microtypecontext on input line 55.
+Package microtype Info: Applying patch `item' on input line 55.
+Package microtype Info: Applying patch `toc' on input line 55.
+Package microtype Info: Applying patch `eqnum' on input line 55.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 54.
+Package microtype Warning: Unable to apply patch `footnote' on input line 55.
 
-Package microtype Info: Applying patch `verbatim' on input line 54.
-LaTeX Info: Redefining \microtypesetup on input line 54.
+Package microtype Info: Applying patch `verbatim' on input line 55.
+LaTeX Info: Redefining \microtypesetup on input line 55.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1008,27 +1232,35 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring ON on input line 54.
+Package hyperref Info: Link coloring ON on input line 55.
+(IEEE.out) (IEEE.out)
 \@outlinefile=\write4
 \openout4 = `IEEE.out'.
 
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
+f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count348
-\scratchdimen=\dimen261
+\scratchdimen=\dimen265
 \scratchbox=\box65
 \nofMPsegments=\count349
 \nofMParguments=\count350
 \everyMPshowfont=\toks42
 \MPscratchCnt=\count351
-\MPscratchDim=\dimen262
+\MPscratchDim=\dimen266
 \MPnumerator=\count352
 \makeMPintoPDFobject=\count353
 \everyMPtoPDFconversion=\toks43
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
+df-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-s
+ys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
@@ -1067,8 +1299,10 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 
 \c@mv@tabular=\count354
 \c@mv@boldtabular=\count355
+
 (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -1078,9 +1312,13 @@ Package caption Info: End \AtBeginDocument code.
  Excluding 'CCSXML' comment.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 125.
-LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF on input line 125.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxbiolinumt-tlf.fd
-File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/LinuxBiolinumT-TLF.
+LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF o
+n input line 125.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxbi
+olinumt-tlf.fd
+File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Lin
+uxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 125.
@@ -1098,9 +1336,13 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 125.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 125.
-LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 125.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ts1linuxlibertinet-tlf.fd
-File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxLibertineT-TLF.
+LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF
+ on input line 125.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ts1linuxl
+ibertinet-tlf.fd
+File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
+LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 125.
@@ -1108,6 +1350,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 125.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 125.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
@@ -1130,9 +1374,13 @@ LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
 (Font)              scaled to size 9.0pt on input line 125.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
 (Font)              scaled to size 6.6pt on input line 125.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cf
+g
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cf
+g
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
@@ -1157,983 +1405,298 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 127.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 127.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 129.
-
-
-Package natbib Warning: Citation `1' on page 1 undefined on input line 129.
-
-
-Package natbib Warning: Citation `2' on page 1 undefined on input line 129.
-
-
-Package natbib Warning: Citation `3' on page 1 undefined on input line 129.
-
-
-Package natbib Warning: Citation `4' on page 1 undefined on input line 131.
-
-
-Package natbib Warning: Citation `5' on page 1 undefined on input line 131.
-
-
-Package natbib Warning: Citation `6' on page 1 undefined on input line 131.
-
-
-Package natbib Warning: Citation `7' on page 1 undefined on input line 131.
-
-
-Package natbib Warning: Citation `8' on page 1 undefined on input line 131.
-
-[1.1{C:/Users/bongapak!/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
-
-Package natbib Warning: Citation `9' on page 2 undefined on input line 133.
-
-
-Package natbib Warning: Citation `10' on page 2 undefined on input line 133.
-
-
-Package natbib Warning: Citation `11' on page 2 undefined on input line 133.
-
-
-Package natbib Warning: Citation `12' on page 2 undefined on input line 137.
-
-
-Package natbib Warning: Citation `11' on page 2 undefined on input line 137.
-
-
-Package natbib Warning: Citation `12' on page 2 undefined on input line 139.
-
-
-Package natbib Warning: Citation `13' on page 2 undefined on input line 139.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2.2]
-
-Package natbib Warning: Citation `14' on page 3 undefined on input line 141.
-
-
-Package natbib Warning: Citation `15' on page 3 undefined on input line 141.
-
-
-Package natbib Warning: Citation `5' on page 3 undefined on input line 143.
-
-
-Package natbib Warning: Citation `5' on page 3 undefined on input line 143.
-
-
-Package natbib Warning: Citation `16' on page 3 undefined on input line 145.
-
-
-Package natbib Warning: Citation `17' on page 3 undefined on input line 145.
-
-
-Package natbib Warning: Citation `18' on page 3 undefined on input line 147.
-
-
-Package natbib Warning: Citation `19' on page 3 undefined on input line 147.
-
-
-Package natbib Warning: Citation `20' on page 3 undefined on input line 149.
-
-
-Package natbib Warning: Citation `8' on page 3 undefined on input line 149.
-
-
-Package natbib Warning: Citation `2' on page 3 undefined on input line 151.
-
-
-Package natbib Warning: Citation `2' on page 3 undefined on input line 151.
-
-
-Package natbib Warning: Citation `21' on page 3 undefined on input line 153.
-
-
-Package natbib Warning: Citation `1' on page 3 undefined on input line 153.
-
-
-Package natbib Warning: Citation `22' on page 3 undefined on input line 153.
-
-<Figures/workflow.png, id=25, 786.94pt x 617.30624pt>
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 131.
+ [1.1{C:/Users/bongapak!/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/U
+sers/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25t
+csq.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/liber
+tine/lbtn_76gpa5.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/en
+c/dvips/libertine/lbtn_naooyc.enc}{C:/Users/bongapak!/AppData/Local/Programs/Mi
+KTeX/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/bongapak!/AppData/Loca
+l/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
+<Figures/workflow.png, id=149, 786.94pt x 617.30624pt>
 File: Figures/workflow.png Graphic file (type png)
 <use Figures/workflow.png>
-Package pdftex.def Info: Figures/workflow.png  used on input line 162.
+Package pdftex.def Info: Figures/workflow.png  used on input line 148.
 (pdftex.def)             Requested size: 316.6592pt x 248.39696pt.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 15
+5.
 
-Underfull \vbox (badness 1122) has occurred while \output is active []
-
- [3.3]
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 169.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.f
+d
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 155.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-
-Package natbib Warning: Citation `23' on page 4 undefined on input line 169.
-
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 155.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 169.
+(Font)              scaled to size 7.3pt on input line 155.
 LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 155.
 LaTeX Font Info:    Font shape `OML/nxlmi/m/it' will be
-(Font)              scaled to size 7.3pt on input line 169.
+(Font)              scaled to size 7.3pt on input line 155.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 155.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 7.3pt on input line 169.
+(Font)              scaled to size 7.3pt on input line 155.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 155.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 7.3pt on input line 169.
+(Font)              scaled to size 7.3pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 7.3pt on input line 169.
+(Font)              scaled to size 7.3pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 7.3pt on input line 169.
+(Font)              scaled to size 7.3pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 7.3pt on input line 169.
+(Font)              scaled to size 7.3pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 155.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 7.3pt on input line 169.
+(Font)              scaled to size 7.3pt on input line 155.
 
-Package natbib Warning: Citation `24' on page 4 undefined on input line 178.
+Underfull \vbox (badness 1057) has occurred while \output is active []
 
+ [2.2 <./Figures/workflow.png>]
+Underfull \vbox (badness 3547) has occurred while \output is active []
 
-Package natbib Warning: Citation `25' on page 4 undefined on input line 178.
-
-
-Package natbib Warning: Citation `26' on page 4 undefined on input line 178.
-
-
-Package natbib Warning: Citation `27' on page 4 undefined on input line 178.
-
-
-Package natbib Warning: Citation `28' on page 4 undefined on input line 178.
-
-
-Package natbib Warning: Citation `29' on page 4 undefined on input line 178.
-
-
-Package natbib Warning: Citation `30' on page 4 undefined on input line 178.
-
-
-Package natbib Warning: Citation `31' on page 4 undefined on input line 178.
-
-
-Package natbib Warning: Citation `32' on page 4 undefined on input line 178.
-
-
-Package natbib Warning: Citation `33' on page 4 undefined on input line 178.
-
-
-Package natbib Warning: Citation `34' on page 4 undefined on input line 178.
-
-
-Package natbib Warning: Citation `35' on page 4 undefined on input line 178.
-
-
-Package natbib Warning: Citation `36' on page 4 undefined on input line 178.
-
-
-Package natbib Warning: Citation `37' on page 4 undefined on input line 178.
-
-[4.4{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-4.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_oexx6f.enc} <./Figures/workflow.png>]
-
-Package natbib Warning: Citation `4' on page 5 undefined on input line 180.
-
-<Figures/fig2.png, id=43, 2360.82pt x 469.755pt>
+ [3.3{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsol
+ata/i4-t1-4.enc}{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
+ps/libertine/lbtn_oexx6f.enc}]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 180.
+<Figures/fig2.png, id=178, 2360.82pt x 469.755pt>
 File: Figures/fig2.png Graphic file (type png)
 <use Figures/fig2.png>
-Package pdftex.def Info: Figures/fig2.png  used on input line 203.
+Package pdftex.def Info: Figures/fig2.png  used on input line 189.
 (pdftex.def)             Requested size: 316.6592pt x 63.00562pt.
-
-Package natbib Warning: Citation `18' on page 5 undefined on input line 214.
-
-<Figures/fig3.png, id=44, 2360.82pt x 424.58624pt>
+<Figures/fig3.png, id=180, 2360.82pt x 424.58624pt>
 File: Figures/fig3.png Graphic file (type png)
 <use Figures/fig3.png>
-Package pdftex.def Info: Figures/fig3.png  used on input line 218.
+Package pdftex.def Info: Figures/fig3.png  used on input line 204.
 (pdftex.def)             Requested size: 316.6592pt x 56.94737pt.
-[5.5]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.3pt on input line 226.
+(Font)              scaled to size 7.3pt on input line 212.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 226.
- [6.6 <./Figures/fig2.png> <./Figures/fig3.png>] [7.7]
+(Font)              scaled to size 5.5pt on input line 212.
+ [4.4 <./Figures/fig2.png> <./Figures/fig3.png>] [5.5]
+[6.6]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 324.
+(Font)              scaled to size 8.0pt on input line 310.
 
-Underfull \vbox (badness 5924) has occurred while \output is active []
+Underfull \hbox (badness 3724) in paragraph at lines 328--329
+[]\T1/LinuxLibertineT-TLF/m/n/8 (+20) Cloudflare. 2026. llama-4-scout-17b-16e-i
+nstruct. Cloud-flare Docs (2026). Re-trieved Jan-u-ary 4, 2026 from
+ []
+
+[7.7]
+Underfull \hbox (badness 2318) in paragraph at lines 340--341
+[]\T1/LinuxLibertineT-TLF/m/n/8 (+20) N. Ros-teck, J. Striegl, and C. Loitsch. 
+2025. Bridg-ing the Treat-ment Gap: A Novel LLM-Driven Sys-tem
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 340--341
+\T1/LinuxLibertineT-TLF/m/n/8 (+20) for Scal-able Ini-tial Pa-tient As-sess-men
+ts in Men-tal Health-care. In \T1/LinuxLibertineT-TLF/m/it/8 (+20) Pro-ceed-ing
+s of the 2025 Con-fer-ence\T1/LinuxLibertineT-TLF/m/n/8 (+20) , 1--8.
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 348--349
+\T1/LinuxLibertineT-TLF/m/n/8 (+20) tal Health Ap-pli-ca-tions: A Sys-tem-atic 
+Re-view (Preprint). \T1/LinuxLibertineT-TLF/m/it/8 (+20) JMIR Men-tal Health \T
+1/LinuxLibertineT-TLF/m/n/8 (+20) 11 (Sep-tem-ber 2024), e57400.
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 358--359
+[]\T1/LinuxLibertineT-TLF/m/n/8 (+20) B. Levis, A. Benedetti, and B. D. Thombs.
+ 2019. Ac-cu-racy of Pa-tient Health Questionnaire-9 (PHQ-9) for
+ []
+
+LaTeX Info: Symbol \textasciidieresis not provided by
+            font family LinuxLibertineT-TLF in TS1 encoding.
+            Default family used instead on input line 364.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cf
+g
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Underfull \hbox (badness 1348) in paragraph at lines 368--369
+[]\T1/LinuxLibertineT-TLF/m/n/8 (+20) R. C. Kessler et al. 2005. The World Heal
+th Or-ga-ni-za-tion Adult ADHD self-report Scale (ASRS): a Short
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 368--369
+\T1/LinuxLibertineT-TLF/m/n/8 (+20) Screen-ing Scale for Use in the Gen-eral Po
+p-u-la-tion. \T1/LinuxLibertineT-TLF/m/it/8 (+20) Psy-cho-log-i-cal Medicine \T
+1/LinuxLibertineT-TLF/m/n/8 (+20) 35, 2 (Feb-ru-ary 2005), 245--256.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+[]\T1/LinuxLibertineT-TLF/m/n/8 (+20) H. A. Skin-ner. 1982. The drug abuse scre
+en-ing test. \T1/LinuxLibertineT-TLF/m/it/8 (+20) Ad-dic-tive Be-hav-iors \T1/L
+inuxLibertineT-TLF/m/n/8 (+20) 7, 4 (1982), 363--371.
+ []
+
+
+Underfull \vbox (badness 1377) has occurred while \output is active []
 
  [8.8]
-Underfull \hbox (badness 3724) in paragraph at lines 342--343
-[]\T1/LinuxLibertineT-TLF/m/n/8 (+20) Cloudflare. 2026. llama-4-scout-17b-16e-instruct. Cloud-flare Docs (2026). Re-trieved Jan-u-ary 4, 2026 from
- []
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 354--355
-[]\T1/LinuxLibertineT-TLF/m/n/8 (+20) N. Ros-teck, J. Striegl, and C. Loitsch. 2025. Bridg-ing the Treat-ment Gap: A Novel LLM-Driven Sys-tem
- []
-
-
-Underfull \hbox (badness 1603) in paragraph at lines 354--355
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) for Scal-able Ini-tial Pa-tient As-sess-ments in Men-tal Health-care. In \T1/LinuxLibertineT-TLF/m/it/8 (+20) Pro-ceed-ings of the 2025 Con-fer-ence\T1/LinuxLibertineT-TLF/m/n/8 (+20) , 1--8.
- []
-
-
-Underfull \hbox (badness 1028) in paragraph at lines 362--363
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) tal Health Ap-pli-ca-tions: A Sys-tem-atic Re-view (Preprint). \T1/LinuxLibertineT-TLF/m/it/8 (+20) JMIR Men-tal Health \T1/LinuxLibertineT-TLF/m/n/8 (+20) 11 (Sep-tem-ber 2024), e57400.
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9.9]
-Underfull \hbox (badness 1286) in paragraph at lines 372--373
-[]\T1/LinuxLibertineT-TLF/m/n/8 (+20) B. Levis, A. Benedetti, and B. D. Thombs. 2019. Ac-cu-racy of Pa-tient Health Questionnaire-9 (PHQ-9) for
- []
-
-
-Underfull \hbox (badness 1348) in paragraph at lines 382--383
-[]\T1/LinuxLibertineT-TLF/m/n/8 (+20) R. C. Kessler et al. 2005. The World Health Or-ga-ni-za-tion Adult ADHD self-report Scale (ASRS): a Short
- []
-
-
-Underfull \hbox (badness 1173) in paragraph at lines 382--383
-\T1/LinuxLibertineT-TLF/m/n/8 (+20) Screen-ing Scale for Use in the Gen-eral Pop-u-la-tion. \T1/LinuxLibertineT-TLF/m/it/8 (+20) Psy-cho-log-i-cal Medicine \T1/LinuxLibertineT-TLF/m/n/8 (+20) 35, 2 (Feb-ru-ary 2005), 245--256.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
-[]\T1/LinuxLibertineT-TLF/m/n/8 (+20) H. A. Skin-ner. 1982. The drug abuse screen-ing test. \T1/LinuxLibertineT-TLF/m/it/8 (+20) Ad-dic-tive Be-hav-iors \T1/LinuxLibertineT-TLF/m/n/8 (+20) 7, 4 (1982), 363--371.
- []
-
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.s
+ty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.s
+ty
 File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.s
+ty
 File: lstlang3.sty 2025/11/14 1.11b listings language file
 )
 
-e:/Documents/Code/ResearchPaper/IEEE.tex:406: Package Listings Error: Couldn't load requested language.
+! Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.406 \begin{lstlisting}[language=json]
+l.390 \begin{lstlisting}[language=json]
                                        
 The following languages weren't loadable:
     ,json$
 This may cause errors in the sequel.
 
 
-e:/Documents/Code/ResearchPaper/IEEE.tex:406: Package Listings Error: language json undefined.
+! Package Listings Error: language json undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.406 \begin{lstlisting}[language=json]
+l.390 \begin{lstlisting}[language=json]
                                        
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 6.0pt on input line 406.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 414.
-[10.10] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+(Font)              scaled to size 6.0pt on input line 390.
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.s
+ty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.s
+ty
 File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
+)
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.s
+ty
 File: lstlang3.sty 2025/11/14 1.11b listings language file
 )
 
-e:/Documents/Code/ResearchPaper/IEEE.tex:430: Package Listings Error: Couldn't load requested language.
+! Package Listings Error: Couldn't load requested language.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.430 \begin{lstlisting}[language=json]
+l.395 \begin{lstlisting}[language=json]
                                        
 The following languages weren't loadable:
     ,json$
 This may cause errors in the sequel.
 
 
-e:/Documents/Code/ResearchPaper/IEEE.tex:430: Package Listings Error: language json undefined.
+! Package Listings Error: language json undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.430 \begin{lstlisting}[language=json]
+l.395 \begin{lstlisting}[language=json]
                                        
 The language is not loadable. Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 416.
+[9.9]
 
-e:/Documents/Code/ResearchPaper/IEEE.tex:447: Package Listings Error: Couldn't load requested language.
+Class acmart Warning: ACM reference format is mandatory 
+(acmart)              for papers over one page. 
+(acmart)              Please add printacmref=true to the 
+(acmart)              \settopmatter command..
 
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.447 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
 
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:447: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.447 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:463: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.463 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:463: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.463 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 471.
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ts1zi4.fd
-File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 6.0pt on input line 471.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `zi4' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:479: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:479: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.479 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[11.11{C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-ts1.enc}] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:494: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.494 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:494: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.494 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:509: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.509 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:509: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.509 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:531: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.531 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:531: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.531 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:553: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.553 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:553: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.553 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[12.12] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:575: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.575 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:575: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.575 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:596: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.596 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:596: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.596 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:612: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.612 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:612: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.612 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[13.13] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:627: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.627 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:627: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.627 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:642: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.642 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:642: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.642 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[14.14] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:751: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.751 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:751: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.751 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[15.15] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:765: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.765 \begin{lstlisting}[language=json]
-                                       
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:765: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.765 \begin{lstlisting}[language=json]
-                                       
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:800: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.800 ...io 1: RAPPORT Phase --- Initial Greeting]
-                                                  
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:800: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.800 ...io 1: RAPPORT Phase --- Initial Greeting]
-                                                  
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 800.
-[16.16] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:810: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.810 ...6: SCREENING Phase --- Overlap Detection]
-                                                  
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:810: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.810 ...6: SCREENING Phase --- Overlap Detection]
-                                                  
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.sty
-File: lstlang2.sty 2025/11/14 1.11b listings language file
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
-File: lstlang3.sty 2025/11/14 1.11b listings language file
-)
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:820: Package Listings Error: Couldn't load requested language.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.820 ...REENING Phase --- Crisis (Deterministic)]
-                                                  
-The following languages weren't loadable:
-    ,json$
-This may cause errors in the sequel.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:820: Package Listings Error: language json undefined.
-
-See the Listings package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.820 ...REENING Phase --- Crisis (Deterministic)]
-                                                  
-The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `tab:llm_providers' on page 17 undefined on input line 867.
-
-[17.17] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-)
-
-Package natbib Warning: There were undefined citations.
-
-
-e:/Documents/Code/ResearchPaper/IEEE.tex:924: Class acmart Error: An attempt to redefine \baselinestretch detected. Please do not do this for ACM submissions!.
+! Class acmart Error: An attempt to redefine \baselinestretch detected. Please 
+do not do this for ACM submissions!.
 
 See the acmart class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.924 \end{document}
+l.443 \end{document}
                     
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
 Pretend that you're Hercule Poirot: Examine all clues,
 and deduce the truth by order and method.
 
-[18.18] (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfdoc.def
+
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-pdfd
+oc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) (C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
-File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [19.18] (IEEE.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
 )
+(C:\Users\bongapak!\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8
+.def
+File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
+) [10.10] (IEEE.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
-
-
-Package rerunfilecheck Warning: File `IEEE.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `IEEE.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  1F1D66C73DA7A2AE535564AEEF7CF3F7;12383.
+Package rerunfilecheck Info: File `IEEE.out' has not changed.
+(rerunfilecheck)             Checksum: 4D42501CA0C193705BEE84013FFE191E;4005.
  ) 
 Here is how much of TeX's memory you used:
- 25026 strings out of 467871
- 407813 string characters out of 5416441
- 1423828 words of memory out of 5000000
- 52341 multiletter control sequences out of 15000+600000
- 795759 words of font info for 406 fonts, out of 8000000 for 9000
+ 23379 strings out of 467871
+ 379115 string characters out of 5416441
+ 1094787 words of memory out of 5000000
+ 51137 multiletter control sequences out of 15000+600000
+ 798957 words of font info for 424 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,12n,131p,1770b,2099s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/LibertineMathMI.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on IEEE.pdf (19 pages, 743442 bytes).
+ 90i,12n,131p,1289b,1135s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\bongapak!\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcrm0800.pk><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/inconsolata/Inconsolata-zi4r.pfb><C:/Users/bongapak!/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/newtx/LibertineMathMI.pfb><C:/Users/bongapak!/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/b
+ongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinum
+TB.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/lib
+ertine/LinLibertineT.pfb><C:/Users/bongapak!/AppData/Local/Programs/MiKTeX/font
+s/type1/public/libertine/LinLibertineTB.pfb><C:/Users/bongapak!/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/bongap
+ak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users
+/bongapak!/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
+Output written on IEEE.pdf (10 pages, 667169 bytes).
 PDF statistics:
- 682 PDF objects out of 1000 (max. 8388607)
- 451 named destinations out of 1000 (max. 500000)
- 79392 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 333 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
+ 88264 words of extra memory for PDF output out of 89155 (max. 10000000)
 
