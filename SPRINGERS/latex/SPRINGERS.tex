@@ -226,7 +226,14 @@ Human Metrics & 0.88 & 30\% \\
 \end{table}
 
 \subsection{Discussion and Limitations}
+
 The observed results highlight a significant divergence between automated similarity and human judgment, particularly in safety-critical scenarios. These findings must be considered within the context of several key limitations:
+
+\paragraph{Sensitivity to Embedding Model Choice.} The system's retrieval-augmented generation (RAG) pipeline is sensitive to the choice of embedding model. At present, only the current embedding model (\texttt{sentence-transformers/all-MiniLM-L6-v2}) is supported, as alternative embedding models typically require faster hardware and greater computational resources than are available in our local environment. This constraint may limit the system's adaptability and retrieval performance in future deployments.
+
+\paragraph{Deployment Constraints.} While the system design is complex, practical deployment constraints such as latency and operational cost have not yet been addressed. The system has not been deployed in a production environment, and all development and evaluation were conducted locally. As such, there are no current cost estimates or latency benchmarks available.
+
+\paragraph{Regulatory and Clinical Validation Roadmap.} A clearer roadmap for regulatory or clinical validation is needed to strengthen the future outlook of the system. Our plan is to implement the system for clinical validation as a first step, followed by seeking partnerships with companies or start-ups to facilitate user testing and broader product deployment.
 
 \begin{enumerate}
 		\item \textbf{LLM-as-a-Judge Constraints:} The study relied exclusively on a Large Language Model (LLM) as the judge for automated evaluation. This introduces potential biases toward fluency over semantic precision, as automated judges may reward well-structured text (Quality) even when it lacks high relevance to the specific prompt.
