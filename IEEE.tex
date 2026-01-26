@@ -57,18 +57,18 @@
 \title{AURIS: An LLM-Driven Framework for Structured Mental Health Assessment Using Mixture-of-Experts Architecture}
 
 \author{Tristan James Y. Tolentino}
-\email{tristanjame.tolentino@cit.edu}
+\email{tristanjamestolentino56@gmail.com}
 \affiliation{%
-  \institution{Cebu Institute of Technology â€“ University}
+  \institution{Cebu Institute of Technology - University}
   \department{Department of Computer Science}
   \city{Cebu City}
   \country{Philippines}
 }
 
 \author{Julia Laine G. Segundo}
-\email{juliaalaine.segundo@cit.edu}
+\email{julialaine.segundo@cit.edu}
 \affiliation{%
-  \institution{Cebu Institute of Technology â€“ University}
+  \institution{Cebu Institute of Technology - University}
   \department{Department of Computer Science}
   \city{Cebu City}
   \country{Philippines}
@@ -77,7 +77,7 @@
 \author{Adrian T. Sajulga}
 \email{adrian.sajulga@cit.edu}
 \affiliation{%
-  \institution{Cebu Institute of Technology â€“ University}
+  \institution{Cebu Institute of Technology - University}
   \department{Department of Computer Science}
   \city{Cebu City}
   \country{Philippines}
@@ -86,7 +86,7 @@
 \author{Jun Albert S. Pardillo}
 \email{junalbert.pardillo@cit.edu}
 \affiliation{%
-  \institution{Cebu Institute of Technology â€“ University}
+  \institution{Cebu Institute of Technology - University}
   \department{Department of Computer Science}
   \city{Cebu City}
   \country{Philippines}
@@ -117,7 +117,7 @@
 \ccsdesc[300]{Applied computing~Health informatics}
 
 \begin{abstract}
-AURIS targets the mental health treatment gap with a retrieval-augmented, safety-aware conversational assessor. Built on the LLaMA 4 Scout mixture-of-experts model and a RAG pipeline, it adapts 14 validated questionnaires (178 items) across three phases: Rapport, Screening, and Snapshot. Using the ESHRO hybrid evaluation (automated metrics plus expert review), AURIS achieved a 0.76 composite score; human raters scored Safety at 1.00 and Empathy at 0.88, while automated relevance lagged at 0.53, highlighting that standard similarity metrics miss clinical alignment. The system is a preventive psychiatry prototypeâ€”an empathetic, low-friction first touchpoint rather than a therapy replacement. Future work includes domain-specific fine-tuning and clinically grounded automated metrics.
+AURIS targets the mental health treatment gap with a retrieval-augmented, safety-aware conversational assessor. Built on the LLaMA 4 Scout mixture-of-experts model and a RAG pipeline, it adapts 14 validated questionnaires (178 items) across three phases: Rapport, Screening, and Snapshot. Using the ESHRO hybrid evaluation (automated metrics plus expert review), AURIS achieved a 0.76 composite score; human raters scored Safety at 1.00 and Empathy at 0.88, while automated relevance lagged at 0.53, highlighting that standard similarity metrics miss clinical alignment. The system is a preventive psychiatry prototype-an empathetic, low-friction first touchpoint rather than a therapy replacement. Future work includes domain-specific fine-tuning and clinically grounded automated metrics.
 \end{abstract}
 
 \keywords{Large Language Models (LLMs), LLaMA 4 Scout, Retrieval-Augmented Generation (RAG), Mental Health Screening, ESHRO Framework, Preventive Psychiatry, Conversational Agents, Clinical Assessment}
@@ -128,7 +128,7 @@ AURIS targets the mental health treatment gap with a retrieval-augmented, safety
 
 Mental health conditions remain widespread yet under-treated because of stigma, cost, and clinician shortages \cite{1,2}. Talk therapy is still the efficacy benchmark \cite{3,21}, but many people delay care until impairment is severe \cite{2}. To widen access, we explore a digital assistant that keeps clinical structure while reducing friction.
 
-Recent work shows Large Language Models (LLMs) can deliver empathetic, context-aware support \cite{4,5,6,7}, though safety and alignment vary by architecture and training \cite{8}. We build on LLaMA 4 Scoutâ€”a mixture-of-experts model with long-context support \cite{9,10,11}â€”to create AURIS, a retrieval-augmented, safety-aware assessor aimed at preventive psychiatry rather than replacing therapy \cite{1,22}.
+Recent work shows Large Language Models (LLMs) can deliver empathetic, context-aware support \cite{4,5,6,7}, though safety and alignment vary by architecture and training \cite{8}. We build on LLaMA 4 Scout-a mixture-of-experts model with long-context support \cite{9,10,11}-to create AURIS, a retrieval-augmented, safety-aware assessor aimed at preventive psychiatry rather than replacing therapy \cite{1,22}.
 
 \section{Related Works}
 
@@ -158,7 +158,7 @@ Each query embedding is constructed from a composite input consisting of the las
 
 To improve recall across heterogeneous user language styles, dual embeddings are maintained for each questionnaire item: one embedding derived from the formal clinical phrasing and another derived from colloquial semantic hook phrases. This dual-representation strategy balances clinical fidelity with accessibility to non-expert users.
 
-To reduce redundancy across overlapping diagnostic instruments (e.g., sleep-related items shared by GAD-7 and ISI), an overlap detection module identifies the top-2 most relevant scales and injects discriminatory prompts designed to elicit differentiating symptoms. Retrieved items propagate their metadataâ€”including \texttt{scale\_id}, \texttt{item\_id}, \texttt{domain}, \texttt{scoring\_rules}, \texttt{severity\_thresholds}, and \texttt{is\_critical} flagsâ€”through all downstream pipeline stages.
+To reduce redundancy across overlapping diagnostic instruments (e.g., sleep-related items shared by GAD-7 and ISI), an overlap detection module identifies the top-2 most relevant scales and injects discriminatory prompts designed to elicit differentiating symptoms. Retrieved items propagate their metadata-including \texttt{scale\_id}, \texttt{item\_id}, \texttt{domain}, \texttt{scoring\_rules}, \texttt{severity\_thresholds}, and \texttt{is\_critical} flags-through all downstream pipeline stages.
 
 \subsection{Clinical Questionnaires and Instrument Coverage}
 The system integrates fourteen validated clinical questionnaires, comprising a total of 178 individual items, covering the domains of depression, anxiety, PTSD, sleep disturbance, perceived stress, substance use, ADHD, OCD, social anxiety, burnout, bipolar disorder screening, and eating disorders \cite{24,25,26,27,28,29,30,31,32,33,34,35,36,37}.
