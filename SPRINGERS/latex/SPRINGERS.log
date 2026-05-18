@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.16)  26 JAN 2026 18:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.16)  26 JAN 2026 19:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -442,20 +442,19 @@ stan-dard-ized JSON schema
 <../../Figures/fig2.png, id=25, 2360.82pt x 469.755pt>
 File: ../../Figures/fig2.png Graphic file (type png)
 <use ../../Figures/fig2.png>
-Package pdftex.def Info: ../../Figures/fig2.png  used on input line 125.
+Package pdftex.def Info: ../../Figures/fig2.png  used on input line 120.
 (pdftex.def)             Requested size: 277.69987pt x 55.24997pt.
-
-
-[4 <../../Figures/fig2.png>]
-<../../Figures/fig3.png, id=30, 2360.82pt x 424.58624pt>
+<../../Figures/fig3.png, id=26, 2360.82pt x 424.58624pt>
 File: ../../Figures/fig3.png Graphic file (type png)
 <use ../../Figures/fig3.png>
-Package pdftex.def Info: ../../Figures/fig3.png  used on input line 139.
+Package pdftex.def Info: ../../Figures/fig3.png  used on input line 134.
 (pdftex.def)             Requested size: 277.69987pt x 49.93747pt.
 
 
+[4 <../../Figures/fig2.png>]
+
 [5 <../../Figures/fig3.png>]
-Overfull \hbox (14.01901pt too wide) in paragraph at lines 206--207
+Overfull \hbox (14.01901pt too wide) in paragraph at lines 189--190
 []\OT1/cmr/m/n/10 The agent per-formed ex-cep-tion-ally well in the \OT1/cmtt/m
 /n/10 crisis[]safety \OT1/cmr/m/n/10 and \OT1/cmtt/m/n/10 stop[]request
  []
@@ -463,197 +462,181 @@ Overfull \hbox (14.01901pt too wide) in paragraph at lines 206--207
 
 
 [6]
-Overfull \hbox (8.81947pt too wide) in paragraph at lines 232--233
-\OT1/cmr/m/n/10 only the cur-rent em-bed-ding model (\OT1/cmtt/m/n/10 sentence-
-transformers/all-MiniLM-L6-v2\OT1/cmr/m/n/10 )
+Overfull \hbox (3.07158pt too wide) in paragraph at lines 204--205
+[]\OT1/cmr/m/n/10 Additional evaluation-specific lim-i-ta-tions in-clude re-lia
+nce on LLM-based judg-
  []
 
 
-
-[7]
-Overfull \hbox (5.54897pt too wide) in paragraph at lines 251--252
-\OT1/cmtt/m/n/10 scale[]id\OT1/cmr/m/n/10 , \OT1/cmtt/m/n/10 item[]id\OT1/cmr/m
-/n/10 , clin-i-cal text, hooks, scor-ing, \OT1/cmtt/m/n/10 is[]critical\OT1/cmr
-/m/n/10 , and sever-ity thresh-
- []
-
-
-Underfull \vbox (badness 7722) has occurred while \output is active []
-
-
-
-[8]
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 []\OT1/cmr/m/n/9 Wren-Lewis, S., Alexan-drova, A.: Men-tal health with-out well
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 \OT1/cmr/m/n/9 being. \OT1/cmr/m/it/9 Jour-nal of Medicine and Phi-los-o-phy \O
 T1/cmr/bx/n/9 46\OT1/cmr/m/n/9 (6), 684--703 (2021).
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 317--318
+Underfull \hbox (badness 1237) in paragraph at lines 217--218
 []\OT1/cmr/m/n/9 Ncheke, D.C. et al.: Ef-fi-cacy of talk ther-apy on aca-demic 
 de-pres-sion be-
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 317--318
+Underfull \hbox (badness 2213) in paragraph at lines 217--218
 \OT1/cmr/m/n/9 u-ca-tion (CPSE). \OT1/cmr/m/it/9 Ed-u-ca-tional Ad-min-is-tra-t
 ion: The-ory and Prac-tice \OT1/cmr/m/n/9 (2024).
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 321--322
+
+[7]
+Underfull \hbox (badness 2181) in paragraph at lines 221--222
 \OT1/cmr/m/n/9 scop-ing re-view. \OT1/cmr/m/it/9 Jour-nal of Med-i-cal In-ter-n
 et Re-search \OT1/cmr/bx/n/9 27\OT1/cmr/m/n/9 , e69284 (2025).
  []
 
 
-
-[10]
-Underfull \hbox (badness 7576) in paragraph at lines 325--326
+Underfull \hbox (badness 7576) in paragraph at lines 225--226
 []\OT1/cmr/m/n/9 Cho, H.N. et al.: Task-specific transformer-based lan-guage mo
 d-els in
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 325--326
+Underfull \hbox (badness 1033) in paragraph at lines 225--226
 \OT1/cmr/m/n/9 health care: scop-ing re-view. \OT1/cmr/m/it/9 JMIR Med-i-cal In
 -for-mat-ics \OT1/cmr/bx/n/9 12\OT1/cmr/m/n/9 , e49724 (2024).
  []
 
 
-Underfull \hbox (badness 5847) in paragraph at lines 329--330
+Underfull \hbox (badness 5847) in paragraph at lines 229--230
 []\OT1/cmr/m/n/9 Meta AI: LLaMA 4: Ad-vanc-ing mul-ti-modal in-tel-li-gence. Te
 ch-ni-cal re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 []\OT1/cmr/m/n/9 Cloudflare: llama-4-scout-17b-16e-instruct. Cloud-flare Docs (
 2026).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 \OT1/cmr/m/n/9 https://developers.cloudflare.com/workers-ai/models/llama-4-scou
 t-17b-16e-
  []
 
 
-Underfull \hbox (badness 5756) in paragraph at lines 343--344
+Underfull \hbox (badness 5756) in paragraph at lines 243--244
 []\OT1/cmr/m/n/9 Rosteck, N., Striegl, J., Loitsch, C.: Bridg-ing the treat-men
 t gap: A
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 343--344
+Underfull \hbox (badness 1762) in paragraph at lines 243--244
 \OT1/cmr/m/n/9 novel LLM-driven sys-tem for scal-able ini-tial pa-tient as-sess
 -ments in men-
  []
 
 
-Underfull \hbox (badness 2913) in paragraph at lines 343--344
+Underfull \hbox (badness 2913) in paragraph at lines 243--244
 \OT1/cmr/m/n/9 tal health-care. In: \OT1/cmr/m/it/9 Pro-ceed-ings of the 2025 C
 on-fer-ence\OT1/cmr/m/n/9 , pp. 1--8 (2025).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 []\OT1/cmr/m/n/9 Newson, J.J., Hunter, D., Thi-a-gara-jan, T.C.: The het-ero-ge
 ne-ity of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 \OT1/cmr/m/n/9 men-tal health as-sess-ment. \OT1/cmr/m/it/9 Fron-tiers in Psy-c
 hi-a-try \OT1/cmr/bx/n/9 11\OT1/cmr/m/n/9 , 76 (2020).
  []
 
 
 
-[11]
-Underfull \hbox (badness 1237) in paragraph at lines 353--354
+[8]
+Underfull \hbox (badness 1237) in paragraph at lines 253--254
 []\OT1/cmr/m/n/9 Ncheke, D.C. et al.: Ef-fi-cacy of talk ther-apy on aca-demic 
 de-pres-sion be-
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 353--354
+Underfull \hbox (badness 2213) in paragraph at lines 253--254
 \OT1/cmr/m/n/9 u-ca-tion (CPSE). \OT1/cmr/m/it/9 Ed-u-ca-tional Ad-min-is-tra-t
 ion: The-ory and Prac-tice \OT1/cmr/m/n/9 (2024).
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 355--356
+Underfull \hbox (badness 1888) in paragraph at lines 255--256
 []\OT1/cmr/m/n/9 Singh, V., Ku-mar, A., Gupta, S.: Men-tal health pre-ven-tion 
 and pro-mo-
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 355--356
+Underfull \hbox (badness 3954) in paragraph at lines 255--256
 \OT1/cmr/m/n/9 tion -- a nar-ra-tive re-view. \OT1/cmr/m/it/9 Fron-tiers in Psy
 -chi-a-try \OT1/cmr/bx/n/9 13\OT1/cmr/m/n/9 , 898009 (2022).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 []\OT1/cmr/m/n/9 Reimers, N., Gurevych, I.: Sentence-BERT: Sen-tence em-bed-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 \OT1/cmr/m/n/9 dings us-ing Siamese BERT-networks. arXiv:1908.10084 (2019).
  []
 
 
-Underfull \hbox (badness 5345) in paragraph at lines 369--370
+Underfull \hbox (badness 5345) in paragraph at lines 269--270
 []\OT1/cmr/m/n/9 Cohen, S., Ka-marck, T., Mer-mel-stein, R.: A global mea-sure 
 of per-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 []\OT1/cmr/m/n/9 Hirschfeld, R.M.A. et al.: De-vel-op-ment and val-i-da-tion of
  a screen-
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 383--384
+Underfull \hbox (badness 3503) in paragraph at lines 283--284
 \OT1/cmr/m/n/9 ing in-stru-ment for bipo-lar spec-trum dis-or-der: the mood dis
 -or-der ques-
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 383--384
+Underfull \hbox (badness 7613) in paragraph at lines 283--284
 \OT1/cmr/m/n/9 tion-naire. \OT1/cmr/m/it/9 Amer-i-can Jour-nal of Psy-chi-a-try
  \OT1/cmr/bx/n/9 157\OT1/cmr/m/n/9 (11), 1873--1875 (2000).
  []
 
 
 
-[12]
-
-[13] (./SPRINGERS.aux)
+[10] (./SPRINGERS.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5483 strings out of 467748
- 76355 string characters out of 5402477
- 540291 words of memory out of 5000000
- 34127 multiletter control sequences out of 15000+600000
+ 5217 strings out of 467748
+ 74224 string characters out of 5402477
+ 495249 words of memory out of 5000000
+ 33861 multiletter control sequences out of 15000+600000
  635374 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,9n,65p,1292b,1043s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,65p,827b,302s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt
 /texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texliv
 e/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></opt/texlive/2025/t
@@ -666,10 +649,10 @@ msy10.pfb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
 fb></opt/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></opt
 /texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></opt/texliv
 e/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on SPRINGERS.pdf (13 pages, 413268 bytes).
+Output written on SPRINGERS.pdf (10 pages, 399842 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
+ 109 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -76,7 +76,7 @@ Recent systems move beyond general models: ZhiXin fine-tunes Llama on clinical r
 Evaluation remains challenging: ESHRO scores empathy, safety, helpfulness, and relevance \cite{18}; CounseLLMe compares AI--human dialogue patterns \cite{19}. Risks include hallucinations, privacy, and fairness \cite{8,20}. The treatment gap persists \cite{2}, talk therapy is still the benchmark \cite{3,21}, and many advocate a preventive stance where digital tools augment care without medicalizing well-being \cite{1,22}.
 
 \section{Methodology}
-This section details the methodological design of AURIS, a retrieval-augmented, safety-aware clinical screening system for structured mental health assessment. The methodology encompasses (1) the retrieval-augmented generation (RAG) pipeline, (2) clinical questionnaire integration, (3) schema design and compression, (4) system architecture and state management, (5) evaluation methodology, (6) safety and crisis handling mechanisms, and (7) reproducibility and deployment considerations. Supporting artifacts and extended specifications are provided in the Appendices, which are explicitly referenced throughout this section.
+This section details the methodological design of AURIS, a retrieval-augmented, safety-aware clinical screening system for structured mental health assessment. We summarize the RAG pipeline, questionnaire integration, schema design, state management, evaluation methodology, and safety handling.
 
 AURIS is designed exclusively for preliminary screening and structured information elicitation and does not provide clinical diagnoses, treatment decisions, or therapeutic recommendations.
 
@@ -111,12 +111,7 @@ A hook-based semantic compression strategy is employed, wherein each item is rep
 All records are stored in JSON Lines (\texttt{jsonl}) format to facilitate streaming ingestion and efficient embedding generation. Schema compliance is enforced using \texttt{jsonschema} validation to guarantee structural integrity and type correctness at load time. Sample compressed records and reverse-scoring implementations are presented in Appendix A.
 
 \subsection{System Architecture and State Management}
-AURIS follows a three-phase interaction model:
-\begin{enumerate}
-		\item \textbf{RAPPORT} (trust and context building),
-		\item \textbf{SCREENING} (adaptive RAG-driven assessment), and
-		\item \textbf{SNAPSHOT} (structured clinical summarization).
-\end{enumerate}
+AURIS follows a three-phase interaction model: \textbf{RAPPORT} (trust and context building), \textbf{SCREENING} (adaptive RAG-driven assessment), and \textbf{SNAPSHOT} (structured clinical summarization).
 
 Conversation state is maintained using an \texttt{AssessmentState} TypedDict, which tracks message history, current phase, active scales, answered items, extracted clinical data, confidence scores, and crisis state flags.
 
@@ -129,7 +124,7 @@ Conversation state is maintained using an \texttt{AssessmentState} TypedDict, wh
 
 The screening pipeline proceeds through the following stages: query construction and embedding, vector retrieval from ChromaDB, domain and scale detection, overlap resolution, discriminatory prompt selection, rule-based safety checks for critical items, question generation, response extraction with confidence scoring, clarification requests for low-confidence outputs, completion detection, and SOAP-formatted clinical summary generation.
 
-Phase-specific system prompts are documented in Appendix B.
+Additional implementation artifacts (e.g., prompt templates) are available upon request.
 
 \subsection{Evaluation Framework: ESHRO Hybrid Scoring}
 System performance is evaluated using the ESHRO hybrid evaluation framework \cite{18}, combining automated metrics with LLM-based human proxy assessment.
@@ -150,12 +145,12 @@ and the Response Quality Score (RQS), computed from response length, linguistic 
 \text{AutomatedScore} = 0.5 \times \text{RRS} + 0.5 \times \text{RQS}
 \end{equation}
 
-Human proxy evaluation (ERS), accounting for the remaining 30\%, is implemented using Gemini 2.5 Flash and evaluates empathy (40\%), helpfulness (30\%), safety compliance (20\%), and overall quality (10\%). LLM-based evaluation is employed as a scalable approximation of human judgment in scenarios where expert annotation is impractical. Full evaluation protocols and scenario definitions are provided in Appendices C--D, with quantitative results reported in Section IV.
+Human proxy evaluation (ERS), accounting for the remaining 30\%, is implemented using Gemini 2.5 Flash and evaluates empathy (40\%), helpfulness (30\%), safety compliance (20\%), and overall quality (10\%). LLM-based evaluation is employed as a scalable approximation of human judgment in scenarios where expert annotation is impractical.
 
 \subsection{Safety and Crisis Handling}
 Safety enforcement is integrated throughout the screening and summarization stages. Detection of any \texttt{is\_critical} item triggers a predefined, rule-based crisis handling block that interrupts the assessment flow and presents region-appropriate hotline resources prior to any further interaction.
 
-Users retain autonomy to continue, pause, or exit the assessment. Crisis handling prompts, escalation logic, and accessibility considerations are detailed in Appendix B.
+Users retain autonomy to continue, pause, or exit the assessment. Supplementary prompt and scenario details are available upon request.
 
 \section{Results and Discussion}
 The evaluation of the AURIS agent was conducted using the ESHRO framework, which aggregates automated linguistic analysis and expert human review. The following subsections analyze the performance across these domains.
@@ -164,149 +159,54 @@ The evaluation of the AURIS agent was conducted using the ESHRO framework, which
 The automated evaluation, which accounts for 70\% of the final score, resulted in a mean performance of 0.71. This metric is further divided into Relevance (RRS) and Quality (RQS).
 
 \begin{table}[htbp]
-\caption{Automated Evaluation Summary}
+\caption{ESHRO Evaluation Summary}
 \begin{center}
-\begin{tabular}{lcc}
+\begin{tabular}{lc}
 \toprule
-\textbf{Metric} & \textbf{Cosine Similarity} & \textbf{util.semantic\_search} \\
+\textbf{Metric} & \textbf{Score} \\
 \midrule
-Relevance (RRS) & 0.53 & 0.53 \\
-Quality (RQS) & 0.89 & 0.89 \\
+Automated Relevance (RRS) & 0.53 \\
+Automated Quality (RQS) & 0.89 \\
+\textbf{Overall Automated Score} & \textbf{0.71} \\
 \midrule
-\textbf{Overall Automated Score} & \textbf{0.71} & \textbf{0.71} \\
+Human Empathy (ERS) & 0.88 \\
+Human Helpfulness (ERS) & 0.75 \\
+Human Safety (ERS) & 1.00 \\
+\textbf{Overall Human Score} & \textbf{0.88} \\
+\midrule
+\textbf{Final ESHRO Score} & \textbf{0.76} \\
 \bottomrule
 \end{tabular}
 \label{table1}
 \end{center}
 \end{table}
 
-As shown in Table~\ref{table1}, the agent achieved high Quality scores (0.89) but lower Relevance scores (0.53). This indicates that while the responses are linguistically sophisticated and complex, they occasionally deviate from the specific semantic expectations of the reference gold standard.
+As shown in Table~\ref{table1}, the agent achieved high Quality scores (0.89) but lower Relevance scores (0.53). This indicates that while responses are generally well-formed, they can deviate from the specific semantic expectations of the reference gold standard.
 
 \subsection{Human Evaluation Analysis}
-Human evaluation, representing 30\% of the total ESHRO weight, yielded a higher performance score of 0.88. This evaluation focused on qualitative clinical markers, specifically Empathy, Safety, and Helpfulness.
-
-\begin{table}[htbp]
-\caption{Human Evaluation Expert Review Scores (ERS)}
-\begin{center}
-\begin{tabular}{lcc}
-\toprule
-\textbf{Category} & \textbf{Score} & \textbf{Weighting} \\
-\midrule
-Empathy & 0.88 (Avg) & 40\% \\
-Helpfulness & 0.75 (Avg) & 30\% \\
-Safety & 1.00 (Avg) & 20\% \\
-\midrule
-\textbf{Overall Human Score} & \textbf{0.88} & \textbf{100\%} \\
-\bottomrule
-\end{tabular}
-\label{table2}
-\end{center}
-\end{table}
+Human evaluation, representing 30\% of the total ESHRO weight, yielded a higher performance score of 0.88. This evaluation focused on qualitative clinical markers, specifically Empathy, Safety, and Helpfulness (Table~\ref{table1}).
 
 The agent performed exceptionally well in the \texttt{crisis\_safety} and \texttt{stop\_request} scenarios, achieving perfect Human Evaluation scores of 1.00. This suggests that human experts value the presence of specific safety resources and the honoring of user boundaries more than literal semantic overlap with a reference text.
 
 \subsection{Final Overall Performance}
-The final weighted performance of the AURIS agent reached 0.76. This score reflects a balance between technical linguistic precision and practical clinical utility.
-
-\begin{table}[htbp]
-\caption{Final Composite Scores}
-\begin{center}
-\begin{tabular}{lcc}
-\toprule
-\textbf{Metric Category} & \textbf{Score} & \textbf{Weight} \\
-\midrule
-Automated Metrics & 0.71 & 70\% \\
-Human Metrics & 0.88 & 30\% \\
-\midrule
-\textbf{Final ESHRO Score} & \textbf{0.76} & \textbf{100\%} \\
-\bottomrule
-\end{tabular}
-\label{table3}
-\end{center}
-\end{table}
+The final weighted performance of the AURIS agent reached 0.76. This score reflects a balance between technical linguistic precision and practical clinical utility (Table~\ref{table1}).
 
 \subsection{Discussion and Limitations}
 
 The observed results highlight a significant divergence between automated similarity and human judgment, particularly in safety-critical scenarios. These findings must be considered within the context of several key limitations:
 
-\paragraph{Sensitivity to Embedding Model Choice.} The system's retrieval-augmented generation (RAG) pipeline is sensitive to the choice of embedding model. At present, only the current embedding model (\texttt{sentence-transformers/all-MiniLM-L6-v2}) is supported, as alternative embedding models typically require faster hardware and greater computational resources than are available in our local environment. This constraint may limit the system's adaptability and retrieval performance in future deployments.
+\paragraph{Sensitivity to Embedding Model Choice.} Retrieval performance in the RAG pipeline is sensitive to the embedding model. Our current implementation uses \texttt{sentence-transformers/all-MiniLM-L6-v2}; broader comparisons were limited by local hardware constraints, as many alternative embedding models require higher throughput and memory than were available in our environment.
 
-\paragraph{Deployment Constraints.} While the system design is complex, practical deployment constraints such as latency and operational cost have not yet been addressed. The system has not been deployed in a production environment, and all development and evaluation were conducted locally. As such, there are no current cost estimates or latency benchmarks available.
+\paragraph{Deployment Constraints.} While the system design is complex, practical deployment constraints such as latency and operational cost have not yet been characterized. The system has not been deployed in a production environment, and all development and evaluation were conducted locally; consequently, we do not yet report end-to-end latency benchmarks or cost estimates.
 
-\paragraph{Regulatory and Clinical Validation Roadmap.} A clearer roadmap for regulatory or clinical validation is needed to strengthen the future outlook of the system. Our plan is to implement the system for clinical validation as a first step, followed by seeking partnerships with companies or start-ups to facilitate user testing and broader product deployment.
+\paragraph{Regulatory and Clinical Validation Roadmap.} A clearer roadmap for clinical and regulatory validation is needed. As next steps, we plan (i) clinical validation under appropriate ethics oversight and clinician review, and (ii) subsequent collaboration with an external clinical/industry partner to support broader user testing and deployment-oriented evaluation.
 
-\begin{enumerate}
-		\item \textbf{LLM-as-a-Judge Constraints:} The study relied exclusively on a Large Language Model (LLM) as the judge for automated evaluation. This introduces potential biases toward fluency over semantic precision, as automated judges may reward well-structured text (Quality) even when it lacks high relevance to the specific prompt.
-		\item \textbf{Public Model Utilization:} Due to financial restrictions and resource constraints, this study utilized a public LLM rather than a model specifically trained or fine-tuned on clinical datasets. The use of a general-purpose model likely contributed to the lower Relevance scores (0.53), as the agent lacked domain-specific training to navigate the nuances of therapeutic dialogue.
-\end{enumerate}
+Additional evaluation-specific limitations include reliance on LLM-based judging (which may over-reward fluency) and the use of a general-purpose public model rather than a clinically fine-tuned model.
 
 \section{Conclusion}
-This study presented AURIS, a retrieval-augmented clinical screening system designed to address the global mental health treatment gap. By leveraging the LLaMA 4 Scout mixture-of-experts architecture and a specialized RAG pipeline, the system demonstrated a robust ability to navigate 178 clinical items across 14 diagnostic domains. The experimental results, assessed through the ESHRO framework, yielded a final composite score of 0.76. A primary strength of the system was its performance in safety-critical scenarios, achieving a perfect 1.00 in human expert reviews for crisis handling, alongside high marks for empathy (0.88). However, the observed divergence between automated semantic relevance (0.53) and human judgment highlights a critical technical challenge: traditional NLP metrics often fail to capture the clinical nuances of therapeutic alliance and safety, which experts value over lexical similarity.
+This study presented AURIS, a retrieval-augmented clinical screening system designed to address the mental health treatment gap. Using the LLaMA 4 Scout mixture-of-experts model and a specialized RAG pipeline, AURIS adapts 178 items across 14 validated instruments. Evaluated with the ESHRO framework, AURIS achieved a final composite score of 0.76, with strong human-rated Safety (1.00) and Empathy (0.88) alongside lower automated Relevance (0.53), suggesting that standard similarity metrics may miss clinically salient alignment. AURIS is positioned as a preventive psychiatry prototype that supports structured intake rather than replacing clinical care.
 
-For future researchers and practitioners, several avenues remain critical for the evolution of LLM-driven mental health tools. First, while general-purpose models like LLaMA 4 Scout provide strong reasoning, there is a clear need for domain-specific fine-tuning or Parameter-Efficient Fine-Tuning (PEFT) on clinical datasets to improve diagnostic precision and semantic alignment. Second, the development of clinically-aware automated evaluation metrics is essential; future work should focus on creating ``LLM-as-a-judge'' prompts that prioritize clinical safety and empathetic resonance over mere linguistic fluency. Furthermore, longitudinal studies are required to assess how these agents influence long-term help-seeking behaviors and patient retention within formal care systems. Finally, as these tools move toward deployment, researchers must prioritize the mitigation of algorithmic bias to ensure equitable screening accuracy across diverse demographic populations. Ultimately, AURIS serves as a viable prototype for preventive psychiatry, illustrating that while AI cannot replace human clinicians, it can provide a safe, scalable, and empathetic first point of contact for those currently underserved by traditional mental health infrastructure.
-
-\appendix
-
-\section{Artifacts Overview}
-We package 14 validated questionnaires (178 items) as JSONL with fields for \texttt{scale\_id}, \texttt{item\_id}, clinical text, hooks, scoring, \texttt{is\_critical}, and severity thresholds. Example (abridged PHQ-9):
-\begin{lstlisting}
-{
-	"scale_id": "PHQ-9",
-	"item_id": "PHQ-9_Q1",
-	"hooks": ["feeling sad"],
-	"scoring": {"0": "Not at all", "3": "Nearly every day"}
-}
-\end{lstlisting}
-
-Schema (abridged) for each scale payload:
-\begin{lstlisting}
-{
-
-  "scale_id": "PHQ-9",
-  "full_name": "Patient Health Questionnaire-9",
-  "domain": "Depression",
-  "items": [
-    {
-      "id": "PHQ-9_Q1",
-      "clinical_text": "Over the last two weeks...",
-      "hooks": ["feeling sad", "down"],
-      "is_critical": false,
-      "scoring": {"0": "Not at all", "3": "Nearly every day"}
-    }
-  ]
-}
-\end{lstlisting}
-
-\section{Core Prompts}
-\noindent
-\textbf{Rapport prompt:} warm, non-diagnostic onboarding that explains purpose, reflects feelings, and asks consent to proceed.
-\begin{framed}
-\noindent\textit{Example:} "I'm here to understand what you're going through and offer a structured check-in. Does that sound okay?"
-\end{framed}
-
-\noindent
-\textbf{Screening prompt:} convert retrieved clinical items into everyday questions, keep empathetic tone, and if \texttt{is\_critical} appears, pause to deliver safety resources before continuing.
-\begin{framed}
-\noindent\textit{Example:} "Lately, have you been feeling down? If so, how often does it show up in a typical week?"
-\end{framed}
-
-\noindent
-\textbf{Snapshot prompt:} generate a concise SOAP-style summary with scale scores and current safety status; avoid prescribing treatment.
-\begin{framed}
-\noindent\textit{Example:} "Summary: reports low mood most days; PHQ-9  14/27; no current self-harm intent. Plan: suggest professional follow-up and coping strategies."
-\end{framed}
-
-\noindent
-\textbf{Crisis-detection prompt:} scan each turn for suicide, self-harm, or harm-to-others intent; escalate with hotline info and stop the flow until acknowledged.
-\begin{framed}
-\noindent\textit{Example:} "I'm hearing possible risk. Before we continue, here are immediate resources:  Can you confirm you're safe right now?"
-\end{framed}
-
-\section{Evaluation Scenarios}
-We validate across 15 scripted cases spanning the full flow: 3 rapport warmups, 7 standard screening turns, 3 crisis-screening turns (suicide/self-harm/substance), and 2 snapshot completions. Each case specifies expected focus and crisis flags. Scoring blends automated relevance/quality (RRS, RQS) at 70\% with a human-proxy ERS at 30\% to reward empathy, safety, and helpfulness alongside fluency.
-
-\section{Runtime Configuration}
-Default generator: LLaMA 4 Scout MoE; judge: Gemini 2.5 Flash. Supported providers: OpenAI (gpt-4o-mini, gpt-4o), Anthropic (Claude 3.5 Sonnet), Google (Gemini 2.5/1.5 Flash), Hugging Face (LLaMA 4 Scout 17B). Configure with the respective provider credentials in your runtime environment.
+\paragraph{Supplementary Materials.} Prompt templates, questionnaire schemas, and evaluation scenarios used in this work are available upon request.
 
 \begin{thebibliography}{99}
 

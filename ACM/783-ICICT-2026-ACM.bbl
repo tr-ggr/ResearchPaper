@@ -1,0 +1,465 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{37}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Unknown(2026a)]%
+        {1}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{a}.
+\newblock \bibinfo{title}{Reference 1}.
+\newblock
+\newblock
+\shownote{Wren-Lewis, S., Alexandrova, A.: Mental health without well-being.
+  Journal of Medicine and Philosophy 46(6), 684--703 (2021).
+  https://doi.org/10.1093/jmp/jhab032}.
+
+
+\bibitem[Unknown(2026b)]%
+        {10}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{b}.
+\newblock \bibinfo{title}{Reference 10}.
+\newblock
+\newblock
+\shownote{Cloudflare: llama-4-scout-17b-16e-instruct. Cloudflare Docs (2026).
+  https://developers.cloudflare.com/workers-ai/models/llama-4-scout-17b-16e-instruct/
+  (accessed 04 Jan 2026)}.
+
+
+\bibitem[Unknown(2026c)]%
+        {11}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{c}.
+\newblock \bibinfo{title}{Reference 11}.
+\newblock
+\newblock
+\shownote{Meta: The Llama 4 herd: The beginning of a new era of natively
+  multimodal AI innovation. Meta AI Blog (2026).
+  https://ai.meta.com/blog/llama-4-multimodal-intelligence/ (accessed 04 Jan
+  2026)}.
+
+
+\bibitem[Unknown(2026d)]%
+        {12}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{d}.
+\newblock \bibinfo{title}{Reference 12}.
+\newblock
+\newblock
+\shownote{Zhao, X., Gao, Y., Zhang, Y.: Tuning LLaMA model with mental
+  disorders knowledge. Research Square (2024).
+  https://doi.org/10.21203/rs.3.rs-4250151/v1}.
+
+
+\bibitem[Unknown(2026e)]%
+        {13}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{e}.
+\newblock \bibinfo{title}{Reference 13}.
+\newblock
+\newblock
+\shownote{Bao, H., Yu, Y., Wang, B., Lu, X., Tong, X.: MILO: An LLM multi-stage
+  conversational agent for fostering teenagers' mental resilience. In:
+  Proceedings of the 2025 Conference, pp. 1--3 (2025).
+  https://doi.org/10.1145/3746058.3758411}.
+
+
+\bibitem[Unknown(2026f)]%
+        {14}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{f}.
+\newblock \bibinfo{title}{Reference 14}.
+\newblock
+\newblock
+\shownote{Fernandes, J., Antunes, A., Campos, J., Dias, J., Santos, P.:
+  FlexiDialogue: Integrating dialogue trees for mental health with large
+  language models. In: Proceedings of the 11th International Conference on
+  Information and Communication Technologies for Ageing Well and e-Health, pp.
+  268--275 (2025). https://doi.org/10.5220/0013286900003938}.
+
+
+\bibitem[Unknown(2026g)]%
+        {15}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{g}.
+\newblock \bibinfo{title}{Reference 15}.
+\newblock
+\newblock
+\shownote{Guo, Q., Tang, J., Sun, W., Tang, H., Shang, Y., Wang, W.: SouLLMate:
+  An adaptive LLM-driven system for advanced mental health support and
+  assessment, based on a systematic application survey. arXiv:2410.11859
+  (2024). https://doi.org/10.48550/arxiv.2410.11859}.
+
+
+\bibitem[Unknown(2026h)]%
+        {16}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{h}.
+\newblock \bibinfo{title}{Reference 16}.
+\newblock
+\newblock
+\shownote{Rosteck, N., Striegl, J., Loitsch, C.: Bridging the treatment gap: A
+  novel LLM-driven system for scalable initial patient assessments in mental
+  healthcare. In: Proceedings of the 2025 Conference, pp. 1--8 (2025).
+  https://doi.org/10.1145/3706599.3720043}.
+
+
+\bibitem[Unknown(2026i)]%
+        {17}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{i}.
+\newblock \bibinfo{title}{Reference 17}.
+\newblock
+\newblock
+\shownote{Newson, J.J., Hunter, D., Thiagarajan, T.C.: The heterogeneity of
+  mental health assessment. Frontiers in Psychiatry 11, 76 (2020).
+  https://doi.org/10.3389/fpsyt.2020.00076}.
+
+
+\bibitem[Unknown(2026j)]%
+        {18}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{j}.
+\newblock \bibinfo{title}{Reference 18}.
+\newblock
+\newblock
+\shownote{Sherwani, S., Khan, Z., Samuel, J., Kashyap, R., Patel, K.: ESHRO: An
+  innovative evaluation framework for AI-driven mental health chatbots.
+  Technical report (2025). https://doi.org/10.13140/rg.2.2.10861.50401}.
+
+
+\bibitem[Unknown(2026k)]%
+        {19}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{k}.
+\newblock \bibinfo{title}{Reference 19}.
+\newblock
+\newblock
+\shownote{De Duro, E.S., Improta, R., Stella, M.: Introducing CounseLLMe: A
+  dataset of simulated mental health dialogues for comparing LLMs like Haiku,
+  LLaMAntino and ChatGPT against humans. Emerging Trends in Drugs, Addictions,
+  and Health 5, 100170 (2025). https://doi.org/10.1016/j.etdah.2025.100170}.
+
+
+\bibitem[Unknown(2026l)]%
+        {2}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{l}.
+\newblock \bibinfo{title}{Reference 2}.
+\newblock
+\newblock
+\shownote{Zhao, R. et al.: Research review: Help-seeking intentions, behaviors,
+  and barriers in college students -- a systematic review and meta-analysis.
+  Journal of Child Psychology and Psychiatry 66(10), 1593--1605 (2025).
+  https://doi.org/10.1111/jcpp.14145}.
+
+
+\bibitem[Unknown(2026m)]%
+        {20}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{m}.
+\newblock \bibinfo{title}{Reference 20}.
+\newblock
+\newblock
+\shownote{Guo, Z., Lai, A., Thygesen, J.H., Farrington, J., Keen, T., Li, K.:
+  Large language models for mental health applications: a systematic review
+  (preprint). JMIR Mental Health 11, e57400 (2024).
+  https://doi.org/10.2196/57400}.
+
+
+\bibitem[Unknown(2026n)]%
+        {21}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{n}.
+\newblock \bibinfo{title}{Reference 21}.
+\newblock
+\newblock
+\shownote{Ncheke, D.C. et al.: Efficacy of talk therapy on academic depression
+  behaviour of students enrolled in counselling, psychology and sociology of
+  education (CPSE). Educational Administration: Theory and Practice (2024).
+  https://doi.org/10.53555/kuey.v30i10.8123}.
+
+
+\bibitem[Unknown(2026o)]%
+        {22}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{o}.
+\newblock \bibinfo{title}{Reference 22}.
+\newblock
+\newblock
+\shownote{Singh, V., Kumar, A., Gupta, S.: Mental health prevention and
+  promotion -- a narrative review. Frontiers in Psychiatry 13, 898009 (2022).
+  https://doi.org/10.3389/fpsyt.2022.898009}.
+
+
+\bibitem[Unknown(2026p)]%
+        {23}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{p}.
+\newblock \bibinfo{title}{Reference 23}.
+\newblock
+\newblock
+\shownote{Reimers, N., Gurevych, I.: Sentence-BERT: Sentence embeddings using
+  Siamese BERT-networks. arXiv:1908.10084 (2019).
+  https://doi.org/10.48550/arxiv.1908.10084}.
+
+
+\bibitem[Unknown(2026q)]%
+        {24}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{q}.
+\newblock \bibinfo{title}{Reference 24}.
+\newblock
+\newblock
+\shownote{Kroenke, K., Spitzer, R.L., Williams, J.B.W.: The PHQ-9: Validity of
+  a brief depression severity measure. Journal of General Internal Medicine
+  16(9), 606--613 (2001).
+  https://doi.org/10.1046/j.1525-1497.2001.016009606.x}.
+
+
+\bibitem[Unknown(2026r)]%
+        {25}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{r}.
+\newblock \bibinfo{title}{Reference 25}.
+\newblock
+\newblock
+\shownote{Levis, B., Benedetti, A., Thombs, B.D.: Accuracy of patient health
+  questionnaire-9 (PHQ-9) for screening to detect major depression: individual
+  participant data meta-analysis. BMJ 365, l1476 (2019).
+  https://doi.org/10.1136/bmj.l1476}.
+
+
+\bibitem[Unknown(2026s)]%
+        {26}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{s}.
+\newblock \bibinfo{title}{Reference 26}.
+\newblock
+\newblock
+\shownote{Spitzer, R.L., Kroenke, K., Williams, J.B.W., L\"owe, B.: A brief
+  measure for assessing generalized anxiety disorder: the GAD-7. Archives of
+  Internal Medicine 166(10), 1092--1097 (2006).
+  https://doi.org/10.1001/archinte.166.10.1092}.
+
+
+\bibitem[Unknown(2026t)]%
+        {27}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{t}.
+\newblock \bibinfo{title}{Reference 27}.
+\newblock
+\newblock
+\shownote{Forkus, S.R. et al.: The posttraumatic stress disorder (PTSD)
+  checklist for DSM-5: A systematic review of existing psychometric evidence.
+  Clinical Psychology: Science and Practice 30(1), 110--121 (2022).
+  https://doi.org/10.1037/cps0000111}.
+
+
+\bibitem[Unknown(2026u)]%
+        {28}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{u}.
+\newblock \bibinfo{title}{Reference 28}.
+\newblock
+\newblock
+\shownote{Bastien, C., Valli\`eres, A., Morin, C.M.: Validation of the insomnia
+  severity index as an outcome measure for insomnia research. Sleep Medicine
+  2(4), 297--307 (2001). https://doi.org/10.1016/S1389-9457(00)00065-4}.
+
+
+\bibitem[Unknown(2026v)]%
+        {29}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{v}.
+\newblock \bibinfo{title}{Reference 29}.
+\newblock
+\newblock
+\shownote{Cohen, S., Kamarck, T., Mermelstein, R.: A global measure of
+  perceived stress. Journal of Health and Social Behavior 24(4), 385--396
+  (1983). https://doi.org/10.2307/2136404}.
+
+
+\bibitem[Unknown(2026w)]%
+        {3}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{w}.
+\newblock \bibinfo{title}{Reference 3}.
+\newblock
+\newblock
+\shownote{Ncheke, D.C. et al.: Efficacy of talk therapy on academic depression
+  behaviour of students enrolled in counselling, psychology and sociology of
+  education (CPSE). Educational Administration: Theory and Practice (2024).
+  https://doi.org/10.53555/kuey.v30i10.8123}.
+
+
+\bibitem[Unknown(2026x)]%
+        {30}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{x}.
+\newblock \bibinfo{title}{Reference 30}.
+\newblock
+\newblock
+\shownote{Kessler, R.C. et al.: The World Health Organization adult ADHD
+  self-report scale (ASRS): a short screening scale for use in the general
+  population. Psychological Medicine 35(2), 245--256 (2005).
+  https://doi.org/10.1017/S0033291704002892}.
+
+
+\bibitem[Unknown(2026y)]%
+        {31}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{y}.
+\newblock \bibinfo{title}{Reference 31}.
+\newblock
+\newblock
+\shownote{Saunders, J.B. et al.: Development of the Alcohol Use Disorders
+  Identification Test (AUDIT): WHO collaborative project on early detection of
+  persons with harmful alcohol consumption--II. Addiction 88(6), 791--804
+  (1993). https://doi.org/10.1111/j.1360-0443.1993.tb02093.x}.
+
+
+\bibitem[Unknown(2026z)]%
+        {32}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{z}.
+\newblock \bibinfo{title}{Reference 32}.
+\newblock
+\newblock
+\shownote{Skinner, H.A.: The drug abuse screening test. Addictive Behaviors
+  7(4), 363--371 (1982). https://doi.org/10.1016/0306-4603(82)90005-3}.
+
+
+\bibitem[Unknown(2026{)]%
+        {33}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{{}.
+\newblock \bibinfo{title}{Reference 33}.
+\newblock
+\newblock
+\shownote{Wootton, B.M. et al.: A contemporary psychometric evaluation of the
+  obsessive compulsive inventory-revised (OCI-R). Psychological Assessment
+  27(3), 874--882 (2015). https://doi.org/10.1037/pas0000075}.
+
+
+\bibitem[Unknown(2026|)]%
+        {34}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{|}.
+\newblock \bibinfo{title}{Reference 34}.
+\newblock
+\newblock
+\shownote{Mattick, R.P., Clarke, J.C.: Development and validation of measures
+  of social phobia scrutiny fear and social interaction anxiety. Behaviour
+  Research and Therapy 36(4), 455--470 (1998).
+  https://doi.org/10.1016/S0005-7967(97)10031-6}.
+
+
+\bibitem[Unknown(2026})]%
+        {35}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{}}.
+\newblock \bibinfo{title}{Reference 35}.
+\newblock
+\newblock
+\shownote{Maslach, C., Jackson, S.E., Leiter, M.P.: The Maslach burnout
+  inventory manual. In: Evaluating Stress: A Book of Resources, 3rd edn.,
+  vol.~3, pp. 191--218. Consulting Psychologists Press, Palo Alto (1997)}.
+
+
+\bibitem[Unknown(2026~)]%
+        {36}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{~}.
+\newblock \bibinfo{title}{Reference 36}.
+\newblock
+\newblock
+\shownote{Hirschfeld, R.M.A. et al.: Development and validation of a screening
+  instrument for bipolar spectrum disorder: the mood disorder questionnaire.
+  American Journal of Psychiatry 157(11), 1873--1875 (2000).
+  https://doi.org/10.1176/appi.ajp.157.11.1873}.
+
+
+\bibitem[Unknown(2026)]%
+        {37}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Reference 37}.
+\newblock
+\newblock
+\shownote{Gormally, J., Black, S., Daston, S., Rardin, D.: The assessment of
+  binge eating severity among obese persons. Addictive Behaviors 7(1), 47--55
+  (1982). https://doi.org/10.1016/0306-4603(82)90024-7}.
+
+
+\bibitem[Unknown(2026)]%
+        {4}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Reference 4}.
+\newblock
+\newblock
+\shownote{Hua, Y. et al.: Large language models in mental health care: a
+  scoping review. arXiv:2401.02984 (2024). https://arxiv.org/abs/2401.02984
+  (accessed 04 Jan 2026)}.
+
+
+\bibitem[Unknown(2026)]%
+        {5}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Reference 5}.
+\newblock
+\newblock
+\shownote{Jin, Y. et al.: The applications of large language models in mental
+  health: scoping review. Journal of Medical Internet Research 27, e69284
+  (2025). https://doi.org/10.2196/69284}.
+
+
+\bibitem[Unknown(2026)]%
+        {6}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Reference 6}.
+\newblock
+\newblock
+\shownote{Guo, Z., Lai, A., Thygesen, J.H., Farrington, J., Keen, T., Li, K.:
+  Large language models for mental health applications: systematic review. JMIR
+  Mental Health 11, e57400 (2024). https://doi.org/10.2196/57400}.
+
+
+\bibitem[Unknown(2026)]%
+        {7}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Reference 7}.
+\newblock
+\newblock
+\shownote{Cho, H.N. et al.: Task-specific transformer-based language models in
+  health care: scoping review. JMIR Medical Informatics 12, e49724 (2024).
+  https://doi.org/10.2196/49724}.
+
+
+\bibitem[Unknown(2026)]%
+        {8}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Reference 8}.
+\newblock
+\newblock
+\shownote{Lawrence, H.R., Schneider, R.A., Rubin, S.B., Mataric, M.J., McDuff,
+  D.J., Bell, M.J.: The opportunities and risks of large language models in
+  mental health. JMIR Mental Health 11, e59479 (2024).
+  https://doi.org/10.2196/59479}.
+
+
+\bibitem[Unknown(2026)]%
+        {9}
+\bibfield{author}{\bibinfo{person}{Unknown}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Reference 9}.
+\newblock
+\newblock
+\shownote{Meta AI: LLaMA 4: Advancing multimodal intelligence. Technical
+  report. https://ai.meta.com/blog/llama-4-multimodal-intelligence/ (accessed
+  04 Jan 2026)}.
+
+
+\end{thebibliography}

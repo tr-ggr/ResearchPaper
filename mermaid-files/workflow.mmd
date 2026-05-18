@@ -1,0 +1,36 @@
+sequenceDiagram
+    autonumber
+    participant User
+    participant AURIS as AURIS System
+    participant Safety as Safety Check
+    participant RAG as RAG Retrieval
+    participant Screening as Screening Loop
+    participant Snapshot as Snapshot Generator
+
+    User->>AURIS: Send message
+    AURIS->>Safety: Run safety screen
+
+    alt Crisis detected
+        Safety-->>User: Crisis resources (988 / 741741 / 911)
+        note left of User: Conversation paused until safe
+    else Safe to proceed
+        AURIS-->>User: RAPPORT greeting and consent
+        User->>AURIS: Share concerns
+        AURIS->>RAG: Select top scales via retrieval
+        RAG-->>AURIS: Relevant items and scales
+
+        loop SCREENING (per item)
+            Screening-->>User: Ask next question
+            User->>Screening: Answer
+            Screening->>Safety: Check for crisis signals
+            
+            alt Crisis mid-screening
+                Safety-->>User: Crisis resources shown
+            else No crisis
+                Screening->>Screening: Extract scores and completion state
+            end
+        end
+
+        AURIS->>Snapshot: Generate SOAP summary (SNAPSHOT)
+        Snapshot-->>User: Summary with scores and recommendations
+    end
